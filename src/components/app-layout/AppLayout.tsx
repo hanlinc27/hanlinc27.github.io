@@ -9,7 +9,6 @@ import Linkedin from 'assets/svg/linkedin.svg';
 import Twitter from 'assets/svg/twitter.svg';
 import Email from 'assets/svg/email.svg';
 import DolphinFooter from 'assets/svg/dolphin-footer.svg';
-
 import { Footer } from 'components/footer/Footer';
 import { Header } from 'components/header/Header';
 import { HeaderLink } from 'components/header/HeaderLink';
@@ -43,6 +42,7 @@ export default ({ children }: AppLayoutProps) => (
       <HeaderLink name = "projects" href = "/projects" /> 
       <HeaderLink name = "musings" href = "/musings" /> 
         <HeaderLink name="about" href="/about" />
+        <HeaderLink name = "resumé" href = "/resumé"/>
         {/* <HeaderLink name="github" href="https://github.com/ueno-llc" icon={<Github />} /> */}
       </Header>
 
@@ -50,16 +50,15 @@ export default ({ children }: AppLayoutProps) => (
 
       <Footer
          logo={<Logo />}
+       
         social={[
           { icon: <Email />, to: 'mailto:h62cheng@uwaterloo.ca' },
           { icon: <Linkedin />, to: 'https://www.linkedin.com/in/hanlincheng' },
           { icon: <Github />, to: 'https://github.com/hanlinc27' },
-          { icon: <Twitter />, to: 'https://twitter.com/hanlin_cheng' 
-        },
-        { icon: DolphinFooter, to: 'hanlincheng.me' 
-        },
+          { icon: <Twitter />, to: 'https://twitter.com/hanlin_cheng' },
 
         ]}
+    
       />
 
       {isDev && <Devtools />}

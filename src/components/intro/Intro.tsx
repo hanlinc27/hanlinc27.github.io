@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react';
 import styled from 'styled-components';
+import 'styles/fonts.css';
 
 import { responsiveFont } from 'styles/utils';
 import { variables, breakpoints } from 'styles/variables';
@@ -23,7 +24,7 @@ const Wrapper = styled.div`
 
 const Paragraph = styled.p`
  ${responsiveFont(24, 24)};
-  font-family: 'Quattrocento';
+  font-family: 'Quattrocento Sans';
   font-weight: 300;
 `;
 

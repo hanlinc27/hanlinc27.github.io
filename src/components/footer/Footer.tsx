@@ -35,7 +35,7 @@ const List = styled.ul`
 
 const ListItem = styled.li`
   margin-left: 30px;
-
+  margin-right: 30px;
   transition: 200ms opacity ease-in-out;
 
   &:hover {

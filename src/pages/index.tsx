@@ -1,5 +1,6 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
+import 'styles/fonts.css';
 
 import { Intro } from 'components/intro/Intro';
 import { Highlight } from "components/intro/Highlight";
@@ -11,9 +12,7 @@ export default () => (
     <Helmet title="Hanlin Cheng" />
 
     <Intro>
-     
-      Hi, I'm Hanlin. :)) 
-       <br></br> 
+     <div className = "landing-heading">  Hi, I'm Hanlin. :)) </div>
     I'm a <Highlight>Systems Design</Highlight>&nbsp;
     Engineering student at the University of Waterloo. 
     <br></br>
@@ -21,9 +20,15 @@ export default () => (
     and <Highlight>Sunnybrook</Highlight>&nbsp;Research Institute. <br></br>
     I care about social engineering and volunteer a lot with Toronto’s <Highlight>Civic Tech</Highlight>&nbsp; community.
   <br></br>
-Currently looking for Fall 2020 Internship opportunities in <Highlight>software development. </Highlight>
+     Currently looking for Fall 2020 Internship opportunities in <Highlight>software development! </Highlight>
 
       {/* ,&nbsp; */}
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
     </Intro>
 
 
