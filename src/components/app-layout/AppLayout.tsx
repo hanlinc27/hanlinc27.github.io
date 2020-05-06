@@ -9,13 +9,12 @@ import Github from 'assets/svg/github.svg';
 import Instagram from 'assets/svg/instagram.svg';
 import Linkedin from 'assets/svg/linkedin.svg';
 import Twitter from 'assets/svg/twitter.svg';
-import Logo from 'assets/svg/ueno-logo.svg';
 
 import { Footer } from 'components/footer/Footer';
 import { Header } from 'components/header/Header';
 import { HeaderLink } from 'components/header/HeaderLink';
 import { Devtools } from 'components/devtools/Devtools';
-
+import {Logo } from 'assets/images/favicon.png';
 interface AppLayoutProps {
   children: ReactNode;
 }
@@ -48,7 +47,7 @@ export default ({ children }: AppLayoutProps) => (
       {children}
 
       <Footer
-        logo={<Logo />}
+         logo={<Logo />}
         social={[
           { icon: <Dribbble />, to: 'https://dribbble.com/ueno' },
           { icon: <Twitter />, to: 'https://twitter.com/uenodotco' },

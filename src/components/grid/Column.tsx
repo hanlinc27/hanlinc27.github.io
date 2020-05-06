@@ -44,7 +44,7 @@ const columnStyles = (props: TTheme) => css`
   align-self: ${props.align || 'stretch'};
 
   padding-left: ${math(`${props.gutter || variables.gutter} / 2px`)};
-  padding-right: ${math(`${props.gutter || variables.gutter} / 2px`)};
+  padding-right: ${math(`${props.gutter || variables.gutter} / 0px`)};
   margin-left: ${getMargin(props).left};
   margin-right: ${getMargin(props).right};
 

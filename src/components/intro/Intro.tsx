@@ -12,8 +12,8 @@ interface IntroProps {
 }
 
 const Wrapper = styled.div`
-  padding: 60px 0;
-
+  padding: 20px 0;
+// used to be 60px
   border-bottom: 1px solid #e5e5e5;
 
   @media (min-width: ${breakpoints.md}) {
@@ -22,7 +22,7 @@ const Wrapper = styled.div`
 `;
 
 const Paragraph = styled.p`
-  ${responsiveFont(26, 32)};
+  ${responsiveFont(18, 32)};
 
   font-family: ${variables.font.familyHeading};
   font-weight: 300;
@@ -30,12 +30,20 @@ const Paragraph = styled.p`
 
 export const Intro = ({ children }: IntroProps) => (
   <Container>
+    {/* <Column > */}
     <Wrapper>
-      <Row>
-        <Column md={7}>
-          <Paragraph>{children}</Paragraph>
-        </Column>
+ 
+    <Row>
+
+  
+     
+      <Paragraph>{children}</Paragraph>   
+        
+   
+
       </Row>
+     
     </Wrapper>
+    {/* </Column> */}
   </Container>
 );

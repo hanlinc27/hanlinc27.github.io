@@ -26,7 +26,7 @@ const HighlightColor = styled.span`
   width: 100%;
   height: 16px;
 
-  background-color: ${rgba('#8effbf', 0.3)};
+  background-color: ${rgba('#FAFAC6', 0.58)};
 `;
 
 export const Highlight = ({ children }: HighlightProps): any =>

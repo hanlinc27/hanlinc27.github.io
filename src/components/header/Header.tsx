@@ -42,7 +42,7 @@ export const Header = ({ children }: HeaderProps) => (
     <Container>
       <Content>
         <a href="/">
-          <Logo />
+          {/* <Logo /> */}
         </a>
         <Navigation>{children}</Navigation>
       </Content>

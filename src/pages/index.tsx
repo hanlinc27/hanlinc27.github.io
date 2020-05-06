@@ -1,23 +1,32 @@
 import React from 'react';
-import Helmet from 'react-helmet';
+import {Helmet} from "react-helmet";
 
 import { Intro } from 'components/intro/Intro';
-import { Highlight } from 'components/intro/Highlight';
+import { Highlight } from "components/intro/Highlight";
 import { BlockText } from 'components/block-text/BlockText';
 
 // tslint:disable-next-line: no-default-export
 export default () => (
   <>
-    <Helmet title="Home" />
+    <Helmet title="Hanlin Cheng" />
 
     <Intro>
-      Hi, I'm Hanlin.{' '}
-      <Highlight>Systems Design Engineering</Highlight>, <Highlight>React Hooks</Highlight>
-      ,&nbsp;
-      <Highlight>Styled Components</Highlight>, <Highlight>Code Splitting</Highlight> and a lot of
-      love.
+      Hi, I'm Hanlin.
+       <br></br> 
+    I'm a <Highlight>Systems Design</Highlight>&nbsp;
+    Engineering <br></br>
+    student at the University of Waterloo. 
+    I’ve previously interned at <Highlight>VMware</Highlight>&nbsp; 
+    and <Highlight>Sunnybrook</Highlight>&nbsp;Research Institute. 
+  I care about social engineering and volunteer a lot with Toronto’s <Highlight>Civic Tech</Highlight>&nbsp; community.
+  <br></br>
+Currently looking for Fall 2020 Internship opportunities in <Highlight>software development. </Highlight>
+
+      {/* ,&nbsp; */}
     </Intro>
 
+
+{/* 
     <BlockText
       heading="Who we are"
       description={
@@ -30,6 +39,6 @@ export default () => (
           .
         </>
       }
-    />
+    /> */}
   </>
 );

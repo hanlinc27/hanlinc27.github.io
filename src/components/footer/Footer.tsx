@@ -47,9 +47,9 @@ export const Footer = ({ logo, social }: FooterProps) => (
   <FooterRoot>
     <Container>
       <Content>
-        <a href="https://ueno.co" target="_blank" rel="noopener noreferrer">
+        {/* <a href="https://ueno.co" target="_blank" rel="noopener noreferrer">
           {logo}
-        </a>
+        </a> */}
 
         <List>
           {social.map((item) => (
