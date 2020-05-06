@@ -22,9 +22,8 @@ const Wrapper = styled.div`
 `;
 
 const Paragraph = styled.p`
-  ${responsiveFont(18, 32)};
-
-  font-family: ${variables.font.familyHeading};
+ ${responsiveFont(24, 24)};
+  font-family: 'Quattrocento';
   font-weight: 300;
 `;
 

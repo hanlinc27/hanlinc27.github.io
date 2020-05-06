@@ -11,14 +11,15 @@ export default () => (
     <Helmet title="Hanlin Cheng" />
 
     <Intro>
-      Hi, I'm Hanlin.
+     
+      Hi, I'm Hanlin. :)) 
        <br></br> 
     I'm a <Highlight>Systems Design</Highlight>&nbsp;
-    Engineering <br></br>
-    student at the University of Waterloo. 
+    Engineering student at the University of Waterloo. 
+    <br></br>
     I’ve previously interned at <Highlight>VMware</Highlight>&nbsp; 
-    and <Highlight>Sunnybrook</Highlight>&nbsp;Research Institute. 
-  I care about social engineering and volunteer a lot with Toronto’s <Highlight>Civic Tech</Highlight>&nbsp; community.
+    and <Highlight>Sunnybrook</Highlight>&nbsp;Research Institute. <br></br>
+    I care about social engineering and volunteer a lot with Toronto’s <Highlight>Civic Tech</Highlight>&nbsp; community.
   <br></br>
 Currently looking for Fall 2020 Internship opportunities in <Highlight>software development. </Highlight>
 

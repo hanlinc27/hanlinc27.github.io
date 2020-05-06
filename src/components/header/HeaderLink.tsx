@@ -13,7 +13,7 @@ interface LinkProps {
 const base = css`
   display: flex;
 
-  margin-left: 40px;
+  margin-left: 25px;
 
   text-decoration: none;
 
@@ -37,7 +37,7 @@ const Icon = styled.div`
   svg {
     position: relative;
 
-    margin-right: 8px;
+    margin-right: 0px;
 
     path {
       fill: #404040;

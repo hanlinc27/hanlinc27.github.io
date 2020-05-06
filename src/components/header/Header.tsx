@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import styled from 'styled-components';
 
-import StarterLogo from 'assets/svg/starter-logo.svg';
+import StarterLogo from 'assets/svg/avatar.svg';
 
 import { breakpoints, variables } from 'styles/variables';
 import { Container } from 'components/container/Container';
@@ -24,11 +24,11 @@ const Content = styled.div`
 const Logo = styled(StarterLogo)`
   display: block;
 
-  height: 16px;
+  height: 150px;
   width: auto;
 
   @media (min-width: ${breakpoints.md}) {
-    height: 18px;
+    height: 250px;
   }
 `;
 
@@ -42,7 +42,7 @@ export const Header = ({ children }: HeaderProps) => (
     <Container>
       <Content>
         <a href="/">
-          {/* <Logo /> */}
+          <Logo />
         </a>
         <Navigation>{children}</Navigation>
       </Content>

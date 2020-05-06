@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-
 import { Container } from 'components/container/Container';
+import DolphinFooter from 'assets/svg/dolphin-footer.svg';
 
 interface Social {
   icon: React.ReactNode;
@@ -50,16 +50,18 @@ export const Footer = ({ logo, social }: FooterProps) => (
         {/* <a href="https://ueno.co" target="_blank" rel="noopener noreferrer">
           {logo}
         </a> */}
-
-        <List>
+        
+         <List>
           {social.map((item) => (
             <ListItem key={item.to}>
               <a href={item.to} target="_blank" rel="noopener noreferrer">
                 {item.icon}
               </a>
+             
             </ListItem>
-          ))}
+        ))}
         </List>
+       
       </Content>
     </Container>
   </FooterRoot>

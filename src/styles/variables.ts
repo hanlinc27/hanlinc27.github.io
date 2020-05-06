@@ -26,7 +26,7 @@ export const variables = {
   colors: {
     primary: '#F5BB00',
     font: '#333',
-    background: '#fff',
+    background: '#F2FFFD',
     placeholder: '#ddd',
   },
 

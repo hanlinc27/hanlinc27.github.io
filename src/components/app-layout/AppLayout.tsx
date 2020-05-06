@@ -3,12 +3,12 @@ import styled from 'styled-components';
 import { Styles } from 'styles/base';
 import { Helmet } from 'react-helmet';
 
-import Dribbble from 'assets/svg/dribbble.svg';
-import Facebook from 'assets/svg/facebook.svg';
+
 import Github from 'assets/svg/github.svg';
-import Instagram from 'assets/svg/instagram.svg';
 import Linkedin from 'assets/svg/linkedin.svg';
 import Twitter from 'assets/svg/twitter.svg';
+import Email from 'assets/svg/email.svg';
+import DolphinFooter from 'assets/svg/dolphin-footer.svg';
 
 import { Footer } from 'components/footer/Footer';
 import { Header } from 'components/header/Header';
@@ -40,8 +40,10 @@ export default ({ children }: AppLayoutProps) => (
 
     <Layout>
       <Header>
+      <HeaderLink name = "projects" href = "/projects" /> 
+      <HeaderLink name = "musings" href = "/musings" /> 
         <HeaderLink name="about" href="/about" />
-        <HeaderLink name="github" href="https://github.com/ueno-llc" icon={<Github />} />
+        {/* <HeaderLink name="github" href="https://github.com/ueno-llc" icon={<Github />} /> */}
       </Header>
 
       {children}
@@ -49,12 +51,14 @@ export default ({ children }: AppLayoutProps) => (
       <Footer
          logo={<Logo />}
         social={[
-          { icon: <Dribbble />, to: 'https://dribbble.com/ueno' },
-          { icon: <Twitter />, to: 'https://twitter.com/uenodotco' },
-          { icon: <Github />, to: 'https://github.com/ueno-llc' },
-          { icon: <Instagram />, to: 'https://www.instagram.com/uenodotco' },
-          { icon: <Facebook />, to: 'https://www.facebook.com/uenodotco' },
-          { icon: <Linkedin />, to: 'https://www.linkedin.com/company/ueno' },
+          { icon: <Email />, to: 'mailto:h62cheng@uwaterloo.ca' },
+          { icon: <Linkedin />, to: 'https://www.linkedin.com/in/hanlincheng' },
+          { icon: <Github />, to: 'https://github.com/hanlinc27' },
+          { icon: <Twitter />, to: 'https://twitter.com/hanlin_cheng' 
+        },
+        { icon: DolphinFooter, to: 'hanlincheng.me' 
+        },
+
         ]}
       />
 
