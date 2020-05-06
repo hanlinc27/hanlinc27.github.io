@@ -11,8 +11,8 @@ export default () => (
     <Helmet title="Home" />
 
     <Intro>
-      Opinionated starter by Ueno, using opinionated dependencies 🤪,{' '}
-      <Highlight>TypeScript</Highlight>, <Highlight>React Hooks</Highlight>
+      Hi, I'm Hanlin.{' '}
+      <Highlight>Systems Design Engineering</Highlight>, <Highlight>React Hooks</Highlight>
       ,&nbsp;
       <Highlight>Styled Components</Highlight>, <Highlight>Code Splitting</Highlight> and a lot of
       love.
