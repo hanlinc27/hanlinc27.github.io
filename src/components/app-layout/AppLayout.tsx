@@ -39,10 +39,12 @@ export default ({ children }: AppLayoutProps) => (
 
     <Layout>
       <Header>
-      <HeaderLink name = "projects" href = "/projects" /> 
+      <HeaderLink name = "projects" href = "https://www.notion.so/hanlincprojects/Projects-7a41d12bbf704647a410bb46eb4b65e7" /> 
       <HeaderLink name = "musings" href = "/musings" /> 
         <HeaderLink name="about me" href="/about" />
-        <HeaderLink name = "resumé" href = "/resumé"/>
+
+        {/* <a href = "https://hanlincheng.me/static/hanlincheng.pdf" target ="_blank"> resumé</a> */}
+        <HeaderLink name = "resumé" href = 'https://hanlincheng.me/static/hanlincheng.pdf'  />
         {/* <HeaderLink name="github" href="https://github.com/ueno-llc" icon={<Github />} /> */}
       </Header>
 

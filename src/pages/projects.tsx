@@ -8,6 +8,6 @@ export default () => (
   <>
     <Helmet title="Projects" />
 
-    <Intro>Projects Page</Intro>
+    <Intro>coming soon! :)</Intro>
   </>
 );
