@@ -28,7 +28,7 @@ const Logo = styled(StarterLogo)`
   width: auto;
 
   @media (min-width: ${breakpoints.md}) {
-    height: 250px;
+    height: 200px;
   }
 `;
 

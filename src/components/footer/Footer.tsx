@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import DolphinFooter from 'assets/svg/dolphin.svg';
 import { Container } from 'components/container/Container';
-import DolphinFooter from 'assets/svg/dolphin-footer.svg';
 
 interface Social {
   icon: React.ReactNode;
@@ -26,7 +26,7 @@ const Content = styled.div`
 
   padding: 40px 0;
 
-  border-bottom: 10px solid #8effbf;
+   border-bottom: 10px solid #FAFAC6;
 `;
 
 const List = styled.ul`
@@ -35,7 +35,7 @@ const List = styled.ul`
 
 const ListItem = styled.li`
   margin-left: 30px;
-  margin-right: 30px;
+
   transition: 200ms opacity ease-in-out;
 
   &:hover {
@@ -47,21 +47,20 @@ export const Footer = ({ logo, social }: FooterProps) => (
   <FooterRoot>
     <Container>
       <Content>
-        {/* <a href="https://ueno.co" target="_blank" rel="noopener noreferrer">
-          {logo}
-        </a> */}
-        
-         <List>
+      <img src="https://user-images.githubusercontent.com/19617248/81241681-fa1af500-8fd8-11ea-9410-e69a952bb830.png" alt = "dolphin"/>
+        <a >
+        ♥ Hanlin C.  
+        </a>
+      
+        <List>
           {social.map((item) => (
             <ListItem key={item.to}>
               <a href={item.to} target="_blank" rel="noopener noreferrer">
                 {item.icon}
               </a>
-             
             </ListItem>
-        ))}
+          ))}
         </List>
-       
       </Content>
     </Container>
   </FooterRoot>

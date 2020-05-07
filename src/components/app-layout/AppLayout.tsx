@@ -30,7 +30,7 @@ export default ({ children }: AppLayoutProps) => (
   <>
     <Helmet>
       <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300;400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet"
       />
     </Helmet>
@@ -41,7 +41,7 @@ export default ({ children }: AppLayoutProps) => (
       <Header>
       <HeaderLink name = "projects" href = "/projects" /> 
       <HeaderLink name = "musings" href = "/musings" /> 
-        <HeaderLink name="about" href="/about" />
+        <HeaderLink name="about me" href="/about" />
         <HeaderLink name = "resumé" href = "/resumé"/>
         {/* <HeaderLink name="github" href="https://github.com/ueno-llc" icon={<Github />} /> */}
       </Header>

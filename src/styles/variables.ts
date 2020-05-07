@@ -1,8 +1,8 @@
 import { math } from 'polished';
-
+import './fonts.css';
 export const variables = {
   // misc
-  gutter: '30px',
+  gutter: '50px',
   segmentPadding: '200px',
 
   // grid
@@ -15,10 +15,10 @@ export const variables = {
 
   // fonts
   font: {
-    family: '"Roboto", sans-serif',
-    familyHeading: '"Open Sans", sans-serif',
-    size: '16px',
-    sizeMin: '13px',
+    family: '"Quattrocento Sans", sans-serif;',
+    familyHeading: '"Quattrocento", serif',
+    size: '17px',
+    sizeMin: '14px',
     lineHeight: 1.5,
   },
 

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.landing-heading {
+    font-family: 'Quattrocento';
+    font-size: 40px; 
+  }
+
+  .landing-body {
+    font-family: 'Quattrocento';
+    font-size: 18px; 
+  }
+a { 
+  text-decoration: none; color:#000; 
+  font-family: '"Quattrocento", serif';
+  font-size: 24px;
+  }
+  a.firstfont{
+    font-family: '"Quattrocento", serif';
+  font-size: 24px;
+  }
+  a:visited { text-decoration: none; color: black; }
+  a:hover { text-decoration: none; color: #FFA69E; }
+  a:focus { text-decoration: none; color:#FFA69E; }
+  a:hover, a:active { text-decoration: none; color: #FFA69E }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 25%;
+    padding: 5px;
+  }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
