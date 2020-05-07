@@ -14,7 +14,6 @@ import { BlockText } from 'components/block-text/BlockText';
 export default () => (
   <>
     <Helmet title="Hanlin Cheng" />
-
     <Intro>
      <div className = "landing-heading">  Hi, I'm Hanlin. :)) </div>
     I'm a <Highlight>Systems Design</Highlight>&nbsp;
@@ -53,6 +52,10 @@ export default () => (
    <div className="column">
     <img src="https://user-images.githubusercontent.com/19617248/81247126-35242500-8fe7-11ea-9739-e6932bbe53fd.png" alt="Mountains1"/>
   </div> 
+  
+  <div className = "column">
+    <img src = "https://user-images.githubusercontent.com/19617248/81248008-6e5d9480-8fe9-11ea-990c-7a4b4b252be2.png" alt = "Anteater"/>
+  </div>
  
 </div>
 

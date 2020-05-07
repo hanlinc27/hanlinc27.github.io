@@ -48,9 +48,7 @@ export const Footer = ({ logo, social }: FooterProps) => (
     <Container>
       <Content>
       <img src="https://user-images.githubusercontent.com/19617248/81241681-fa1af500-8fd8-11ea-9410-e69a952bb830.png" alt = "dolphin"/>
-        <a >
-        ♥ Hanlin C.  
-        </a>
+    
       
         <List>
           {social.map((item) => (
