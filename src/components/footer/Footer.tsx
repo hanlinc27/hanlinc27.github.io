@@ -34,7 +34,7 @@ const List = styled.ul`
 `;
 
 const ListItem = styled.li`
-  margin-left: 30px;
+  margin-left: 20px;
 
   transition: 200ms opacity ease-in-out;
 

@@ -13,11 +13,11 @@ interface BlockTextProps {
 }
 
 const Block = styled.div`
-  padding: 60px 0;
+  padding: 50px 0;
 
-  @media (min-width: ${breakpoints.lg}) {
-    padding: 180px 0;
-  }
+  // @media (min-width: ${breakpoints.lg}) {
+  //   padding: 20px 0;
+  // }
 `;
 
 const Heading = styled.h3`
@@ -32,7 +32,7 @@ const Description = styled.p`
   ${responsiveFont(16, 18)}
 
   font-weight: 300;
-  line-height: ${26 / 16};
+  line-height: ${30 / 16};
 
   a {
     text-decoration: none;
@@ -50,12 +50,14 @@ const Description = styled.p`
 export const BlockText = ({ heading, description }: BlockTextProps) => (
   <Container>
     <Block>
+    {/* <Column md={12}> */}
       <Row>
-        <Column md={5}>
+      
           <Heading>{heading}</Heading>
           <Description>{description}</Description>
-        </Column>
+    
       </Row>
+      {/* </Column> */}
     </Block>
   </Container>
 );

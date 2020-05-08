@@ -1,5 +1,6 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
+import 'styles/fonts.css';
 
 import { Intro } from 'components/intro/Intro';
 
