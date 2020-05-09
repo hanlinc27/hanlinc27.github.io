@@ -66,8 +66,16 @@ Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lor
 🏀 Been watching “The Last Dance” on Netflix. I’m the biggest <Highlight>San Antonio</Highlight><Highlight> Spurs</Highlight> fan and have watched pretty much every Spurs winning documentary five times over.
           <br></br>
           <br></br>
+        &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;🐬 If you’re willing to chat, I am always open to listen and learn. Feel free to reach me through my 
+        <a href="mailto:h62cheng@uwaterloo.ca"  target="_blank"> email </a>
+        or through 
+        <a  href="https://twitter.com/hanlin_cheng"target="_blank"> twitter </a>
+        ! :) 
+          <br></br>
+          <br></br>
           <br></br>
         </>
+
       }
     />
   </>

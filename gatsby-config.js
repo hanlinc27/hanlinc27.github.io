@@ -2,7 +2,8 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: 'Ueno Gatsby Starter',
+    title: 'Hanlin Personal Gatsby Site',
+    description: 'A collection of interestings swimming on the internet.'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -10,8 +11,19 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    'gatsby-transformer-remark',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/markdown-pages`,
+      },
+    },
+    `gatsby-transformer-remark`,
+  
     {
       resolve: 'gatsby-plugin-manifest',
+   
       options: {
         name: 'ueno-gatsby-starter',
         short_name: 'starter',
@@ -21,7 +33,9 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'src/assets/images/favicon.png',
       },
+  
     },
+
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {

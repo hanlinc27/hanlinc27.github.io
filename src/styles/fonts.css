@@ -37,6 +37,12 @@ a {
     font-family: '"Quattrocento", serif';
   font-size: 24px;
   }
+  a.secondfont{
+    font-family: '"Quattrocento Sans", sans serif';
+    font-color: black; 
+
+  font-size: 20px;
+  }
   a:visited { text-decoration: none; color: black; }
   a:hover { text-decoration: none; color: #FFA69E; }
   a:focus { text-decoration: none; color:#FFA69E; }
