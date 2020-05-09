@@ -1,10 +1,6 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
 import 'styles/fonts.css';
-import GithubBig from 'assets/svg/github.svg';
-import LinkedinBig from 'assets/svg/linkedin.svg';
-import TwitterBig from 'assets/svg/twitter.svg';
-
 
 import { Intro } from 'components/intro/Intro';
 import { Highlight } from "components/intro/Highlight";
