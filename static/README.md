@@ -1,9 +1,9 @@
 ## hanlin personal website 
 ### built with: 
 * Gatsby 
-* React 
-* React Helmet 
+* GraphQL
+* Reactjs, React Hooks, React Helmet
 * Typescript
-* React Hooks 
+* Javascript
 
 I guess the goal here is to learn a bit more while trying to communicate in a better manner? and trying the markdown rendering in gatsby :) 
