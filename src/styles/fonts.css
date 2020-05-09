@@ -41,7 +41,21 @@
     }
 } */
 
-
+.about-picture { 
+  display: inline-flex;
+  vertical-align: top;
+  width: 40;
+  /* margin: 5px; */
+}
+.about-text {
+  text-decoration: none; color:#000; 
+  font-size: 17px;
+  display: inline-flex;
+  width: 59%;
+  margin: 8px;
+  flex-basis: auto;
+  flex-grow: 4;
+}
 
 a { 
   text-decoration: none; color:#000; 
