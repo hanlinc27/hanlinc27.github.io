@@ -47,7 +47,7 @@ export const Footer = ({ logo, social }: FooterProps) => (
   <FooterRoot>
     <Container>
       <Content>
-      <img src="https://user-images.githubusercontent.com/19617248/81241681-fa1af500-8fd8-11ea-9410-e69a952bb830.png" alt = "dolphin"/>
+      <img src="https://user-images.githubusercontent.com/19617248/81488778-a3612580-923b-11ea-88bf-6b5389822ada.png" alt = "dolphin"/>
     
       
         <List>
