@@ -11,7 +11,29 @@
     font-size: 24px; 
   }
 
+  .blog-post-container {
+    font-family: 'Quattrocento';
+    font-size: 24px; 
+  }
+  .blog-post {
+    font-family: 'Quattrocento';
+    font-size: 24px; 
+    padding: 30px;
+  }
+  .blog-post-content {
+    font-family: 'Quattrocento Sans';
+    font-size: 18px; 
+   
+  }
 
+.musings-text {
+  font-family: 'Quattrocento';
+  font-size: 24px; 
+  display: flexbox; 
+  padding: 50px;
+
+  justify-content: flex-start;
+}
 .about-picture { 
   display: inline-flex;
   vertical-align: top;

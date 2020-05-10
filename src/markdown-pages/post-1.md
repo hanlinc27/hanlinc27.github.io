@@ -1,9 +1,41 @@
 ---
-path: "/blog/my-first-post"
-date: "2020-01-21"
-title: "My First Blog Post" 
+path: "/blog/venera7"
+date: "2017-10-20"
+title: " Venera 7 - A Miracle of Twenty-Three Minutes " 
 tags: ['this', 'that']
 excerpt: "A Preview Of My First Post"
 ---
 
-Lorem ipsum delta sans 
+Since the dawn of time, mankind’s interest in the vast universe that lay outside of our own planet Earth has sparked multiple missions and explorations that were destined to discover bits of what lay in the great unknown. The interstellar cosmos is one that is universal to every single human, invoking the same curiosity in the old or young, rich or poor, tall or short and thus has led to many international collaborations aimed at breaking and challenging the barriers that currently exist. From these international powers, one such space program conducted by the USSR (known as the Soviet Space Program) pioneered many of the initial operations into Space. Notably, the Soviet Space Program is known for its secrecy, often operating with ambiguity when perceived by the general public. This was due to the goal of creating a barrier between the space program and socialist Soviet society and also to prevent from the escape of important data. With the Cold War in place, the protection of the Soviet Space Program information became even more crucial as the USSR conducted its endeavors. After successes such as the Sputniks in the late 1950s and the Vostoks in the early 1960s, the USSR launched the Venera series of space probes with the objective to help further our knowledge of Earth’s mysterious neighbour planet, Venus.
+Ranging between the years 1961 to 1984, the Venera series created probes that transmitted data, both from the surface and atmosphere of the planet Venus (or the Russian name, Venera). Venera 1 and 2 (both failures) were fly-by probes while the next sets, Venera 3 to 6, were probes that were more similar in their mechanical design. Abundant with errors, the design of the Venera 7 was intended to improve greatly from the previous parts of Venera 1 to 6. These early probes had stated that Venus had components which differed greatly to the planet Earth despite our relatively close proximity and an even greater ambition was placed onto the Venera 7. As stated by the NASA Mission File, the Venera 7 was to “return data from the Venus atmosphere, make a landing on the surface, and continue to return data after landing”.
+![image](https://minimal-blog.lekoarts.de/static/04eec2ea839fc0c456fcd12cdd361824/18e3b/potions.jpg)
+
+Designed at the Lavochkin bureau in Moscow, with Vladimir Perminov as the deputy chief designer, the Venera 7 had a spacecraft bus and also a spherical shaped landing probe with the purpose of making a soft landing on the surface of Venus. It was also designed to withstand 180 atmospheres which was chosen because the Venera 5 and 6 that withstood 25 atmospheres broke down in Venus’ atmosphere. The Venera 7 itself is a spherical egg shape that has no seams, bumps, holes or welds on the exterior and encased in titanium shells. The titanium was also lined with shock-absorbing material as the spacecraft needed to withstand the pressures, temperatures and shock on its descent to Venus. It totalled up to 1180 kg in weight and had a small parachute that was 2.5 square metres in area. The spacecraft carried scientific equipment for both communication and sensing that would ideally be able to measure different factors on Venus. Some examples of these include measurement of the internal and external temperatures of the spacecraft, pressure of atmospheric gases, composition of the atmospheric gases, a barometer, a pulse modulation radar altimeter, a cosmic ray detector (measurement of the high energy radiation) and a solar wind detector. Another important note about changes in this Venera probe in comparison to past Venera missions is that the parachutes were much smaller in size as the Venera 7 was intended to have an accelerated landing. In order to test the Venera 7 spacecraft before it was launched, scientists built a mock pressure chamber, Figure 1, that had a pressure of 150 atmospheres with a temperature of 540 degrees Celsius. In this testing chamber, they made it as similar as possible to the conditions of Venus by making alterations to the temperature and gas concentration.
+
+
+On August 17, 1970 05:38:22 UT, the Venera 7 was launched from what is now the Baikonur Cosmodrome in Kazakhstan. From this point, it started its four-month long journey towards the planet Venus. The sibling to Venera 7 was jointly launched on August 22 but this spacecraft was never able to leave Earth’s orbit. As it neared Venus at the end of 1970, the Venera 7 probe separated from the cruise ship and entered into the atmosphere of Venus on December 15, 1970 04:58:44 UT. With an aerodynamic braking, the parachute of the Venera 7 was opened at around 60 km in altitude. From here, atmospheric testing of Venus was read on the machine as having a concentration of 97 % carbon dioxide. On the spacecraft, there was a malfunction of the switch on the probe so that it could only send back one data field which was temperature. As such, it continued falling for around 30 minutes based on the Doppler-Shifted Radio Signal (Figure 2) but around 19 mins, the signal showed that it suddenly accelerated in its fall with an increase in velocity which corresponded with the approximate time that the probe’s parachute had ripped. The Venera 7 hit the surface of Venus at a speed of 17m/ sec while essentially in a free-fall motion and at the time, the Deep Station Control Centre in Crimea was only receiving static background radio noise. Everyone had believed that because of its rapidly accelerated fall, the Venera 7 space probe had been destroyed. However, miraculously, a week later in the Moscow’s Institute of Radio Electronics it was revealed that the space probe actually managed to communicate an additional 23 min of very weak signal while after its impact on the Venetian surface. When it struck the planet, it had 3 percent power in its signal and was able to last 23 minutes on this while additionally sending binary data at 1 bit/sec on 922 MHz. Later analysis hypothesized that it bounced when it hit the surface (5oS, 351oE) and
+> came to a final end with it laying on its side, antenna pointed away from Earth.
+
+Thus, it became the first spacecraft to successfully return back data that was measured from the surface of a different planet.
+
+Despite many of the barriers it faced throughout the mission, the Venera 7 was still able to relay back information to scientists in Russia. Particularly, the temperature sensor showed a reading of 475 ° C at the surface (± 20 ° C). As well, the radio Doppler measurements and further calculations also showed that Venus’s atmosphere had a retrograde wind (100 m/s) in the atmosphere which was faster than the actual rotation of Venus. This may be due to solar heat being absorbed by the cloud layer in Venus’ atmosphere that creates this fast circulation at high circulations. These measurements also showed that the wind velocity at the surface was 2.5 m/sec or less and that the top portion of the surface (80 kg/cm2) consisted of volcanic tuff. This was done by drawing conclusions on the fact that the spacecraft was able to survive the impact when going at 17 m/sec. The pressure which was estimated from the temperature data gave us an atmosphere equivalent to 800–900 m below sea level (around 90 ± 15 atmospheres). Much of this information was new as previously, little could be determined about Venus due to the low visibility from its thick atmosphere.
+
+
+Although not a complete success, the Venera 7 mission was able to return to humankind the first data collected from the surface of another planet. The work that went into building it as well as the particular design and testing was what made it possible for the probe to traverse its way through the rough atmosphere on Venus. The ability for it to still communicate 23 min of signal while lying on its side on the surface of Venus is a remarkable feat in its own regard. It sent us data which led us to draw further conclusions from our previously known knowledge and set the stage for future Venera missions. The future Venera missions would be able to return pictures from the Venetian surface and even the Vega probes in 1980s had some basis in the Venera designs. In conclusion, the Venera 7 mission despite its hurdles was able to give us some of the most crucial information about our mysterious neighbouring planet, Venus, setting the stage for future explorations and scientific discoveries.
+
+***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
