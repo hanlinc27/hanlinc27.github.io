@@ -3,11 +3,13 @@ import {Helmet} from "react-helmet";
 import 'styles/fonts.css';
 import { Intro } from 'components/intro/Intro';
 import { Highlight } from "components/intro/Highlight";
+
 // tslint:disable-next-line: no-default-export
 export default () => (
   <>
     <Helmet title="Hanlin Cheng" />
     <Intro>
+      
      <div className = "landing-heading">  Hi, I'm Hanlin. :)) </div>
     I'm a <Highlight>Systems Design</Highlight>&nbsp;
     Engineering student at the University of Waterloo. 
