@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import 'styles/fonts.css';
 
 const PostLink = ({ post }) => (
+
   <div  className = "musings-text">
    
     <Link to={post.frontmatter.path}>
@@ -12,6 +13,7 @@ const PostLink = ({ post }) => (
     
 
   </div>
+
 )
 
 export default PostLink
