@@ -1,7 +1,22 @@
 import React from "react"
 import { graphql } from "gatsby"
+import styled from 'styled-components';
+import { breakpoints } from 'styles/variables';
+
 import PostLink from "../components/post-link"
 import 'styles/fonts.css';
+import { Container } from 'components/container/Container';
+
+const Wrapper = styled.div`
+  padding: 30px 0;
+// used to be 60px
+  border-bottom: 1px solid #e5e5e5;
+
+  @media (min-width: ${breakpoints.md}) {
+    padding: 120px 0;
+  }
+`;
+
 // import { Footer } from 'components/footer/Footer';
 const IndexPage = ({
   data: {
@@ -12,11 +27,15 @@ const IndexPage = ({
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
-  return <div className = "landing-heading">{
+  return <Container> <Wrapper><div className = "landing-heading">{
     
     Posts
     }
    </div>
+   <br></br>
+   <br></br>
+   </Wrapper>
+   </Container>
 
 }
 
