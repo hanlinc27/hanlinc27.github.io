@@ -2,7 +2,6 @@ import React from "react"
 import { graphql } from "gatsby"
 import styled from 'styled-components';
 import { breakpoints } from 'styles/variables';
-
 import PostLink from "../components/post-link"
 import 'styles/fonts.css';
 import { Container } from 'components/container/Container';
@@ -27,8 +26,17 @@ const IndexPage = ({
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
-  return <Container> <Wrapper><div className = "landing-heading">{
     
+  return <Container> <Wrapper>
+      
+    
+    <div className = "landing-heading">  A delicate mix of musings, rambles, and (hopefully) insights. </div>
+      <div className = "musings-subheading">"I remembered that the real world was wide, and that a varied field of hopes and fears, of sensations and excitements, awaited those who had the courage to go forth into it's expanse, to seek real knowledge of life amidst it's perils." 
+      <br></br>- Jane Eyre (an all-time classic) </div>
+  
+
+    <div className = "landing-heading">{
+
     Posts
     }
    </div>

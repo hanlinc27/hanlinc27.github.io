@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Styles } from 'styles/base';
 import { Helmet } from 'react-helmet';
 
-
+import Resume from 'assets/svg/document.svg';
 import Github from 'assets/svg/github.svg';
 import Linkedin from 'assets/svg/linkedin.svg';
 import Twitter from 'assets/svg/twitter.svg';
@@ -54,6 +54,7 @@ export default ({ children }: AppLayoutProps) => (
          logo={<Logo />}
        
         social={[
+         
           { icon: <Email />, to: 'mailto:h62cheng@uwaterloo.ca' },
           { icon: <Linkedin />, to: 'https://www.linkedin.com/in/hanlincheng' },
           { icon: <Github />, to: 'https://github.com/hanlinc27' },

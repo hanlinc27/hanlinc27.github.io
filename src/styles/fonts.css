@@ -25,6 +25,11 @@
     font-size: 18px; 
    
   }
+  .musings-subheading{
+    font-family: 'Quattrocento Sans';
+    font-style: italic; 
+    font-size: 18px; 
+  }
 
 .musings-text {
   font-family: 'Quattrocento';
