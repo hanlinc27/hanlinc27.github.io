@@ -31,26 +31,23 @@ export default () => (
      <div className = "landing-body">It's the little things that count...</div>
 
 
-
-
-
      <div className="row">
   <div className="column">
-    <img src="https://user-images.githubusercontent.com/19617248/81246999-ea0a1200-8fe6-11ea-82e2-c82dcf9ec1f8.png" alt="Snow"/>
+    <img src="https://user-images.githubusercontent.com/19617248/82160408-2a795380-9863-11ea-871c-d9851f993394.png" alt="Axolotl"/>
   </div>
   <div className="column">
-    <img src="https://user-images.githubusercontent.com/19617248/81247120-32c1cb00-8fe7-11ea-89a6-c7bb632a5df2.png" alt="Forest"/>
+    <img src="https://user-images.githubusercontent.com/19617248/82160410-2baa8080-9863-11ea-9d1b-8cb899ff133d.png" alt="Elephant"/>
   </div>
   <div className= "column">
-    <img src="https://user-images.githubusercontent.com/19617248/81247122-33f2f800-8fe7-11ea-93f1-c1bfca4e6b2b.png" alt="Mountains"/>
+    <img src="https://user-images.githubusercontent.com/19617248/82160411-2cdbad80-9863-11ea-855f-454d2d5a7351.png" alt="Matcha"/>
   </div>
 
    <div className="column">
-    <img src="https://user-images.githubusercontent.com/19617248/81247126-35242500-8fe7-11ea-9739-e6932bbe53fd.png" alt="Mountains1"/>
+    <img src="https://user-images.githubusercontent.com/19617248/82160413-2e0cda80-9863-11ea-9fab-4e60e2b86c6f.png" alt="Dumpling"/>
   </div> 
   
   <div className = "column">
-    <img src = "https://user-images.githubusercontent.com/19617248/81248008-6e5d9480-8fe9-11ea-990c-7a4b4b252be2.png" alt = "Anteater"/>
+    <img src = "https://user-images.githubusercontent.com/19617248/82160415-2f3e0780-9863-11ea-844d-662e59d85d42.png" alt = "Coffee"/>
   </div>
  
 </div>
