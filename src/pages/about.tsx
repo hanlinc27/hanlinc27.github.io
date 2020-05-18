@@ -11,7 +11,7 @@ export default () => (
     <Helmet title="about me" />
 
     <Intro>
-    <div className = "landing-heading">  Still waiting for my Hogwarts letter... </div>
+    <div className = "landing-heading"> 	Our dear friend, Winnie the Pooh, endearingly points out that, <br></br>“I always get to where I am going by walking away from where I have been.” </div>
       <div className = "about-body">
    
     {/* <div className="about-body__text">
@@ -20,18 +20,25 @@ export default () => (
 
 <Image className = "about-picture" src="https://github.com/hanlinc27/hanlinc27.github.io/blob/master/static/about-picture.png?raw=true"  />
 <div className = "about-text">
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+I love jigsaw puzzles. Start with the framed edge, slowly work your way into the middle, and voila - the satisfaction of a completed puzzle is like none other. Sometimes,  you don’t work from the edges and instead settle on piecing together individual sections and then successfully joining them. And on the rare occasion, no matter how you tilt or angle your head, you’re stumped and have to come back another time. 
 <br></br>
 <br></br>
-Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-<br></br>
-<br></br>
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-<br></br>
-<br></br>
-Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus,
-</div>
 
+It occurred to me the other day while working on a puzzle with my sister, that my interest in software development might be as simple as that. Piece by piece, section by section, building software is really just problem-solving little pieces of a bigger puzzle.
+ <br></br>
+ <br></br>
+
+I’m currently studying Systems Design Engineering at the University of Waterloo because I want to understand better the “larger picture” behind all the different puzzles we’re trying to solve in this world. In my spare time, I volunteer a lot with the Civic Tech community in Toronto through web development, design, and other creative projects. I also tremendously enjoy watching basketball (especially the San Antonio Spurs!). 
+
+<br></br>
+<br></br>
+
+Moving forward, I want to solve the little and large puzzles humans encounter in their lives to create intentionally delightful experiences. 
+How so? To be honest, I’m not too sure yet.
+<br></br>	<br></br>
+
+So in the meantime, I’ll just keep walking. :) 
+</div>
 {/* <p>che<img className = "about-body__image" src="https://github.com/hanlinc27/hanlinc27.github.io/blob/master/static/about-picture.png?raw=true" class = "photo" alt="profilepic"></img></p> */}
 </div>
 
@@ -54,7 +61,7 @@ Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lor
       heading="Recently I have..."
       description={
         <>
-          😊 Completed a 10 hour <Highlight>Puzzlehunt</Highlight> (CMU Getaway!) for the first time. Thinking of writing one?
+          😊 Completed a 10 hour online <Highlight>Puzzlehunt</Highlight> (CMU Getaway!) for the first time. Thinking of writing one?
           <br></br>
 🎤 Published the seventh episode of a <Highlight>podcast</Highlight> (it’s anonymous, so  I guess this makes it less anonymous?) To give some context, it’s called
           <a href="https://medium.com/for-context" target="_blank">
@@ -63,7 +70,7 @@ Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lor
           <br></br>
 📕 Read my first <Highlight>Murakami</Highlight> novel - Kafka on the Shore (best word to describe it - dreamlike).
           <br></br>
-🏀 Been watching “The Last Dance” on Netflix. I’m the biggest <Highlight>San Antonio</Highlight><Highlight> Spurs</Highlight> fan and have watched pretty much every Spurs winning documentary five times over.
+          🍞 Learned from my mom how to make <Highlight>garlic bread </Highlight>! So delicious. 🤤
           <br></br>
           <br></br>
         &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;🐬 If you’re willing to chat, I am always open to listen and learn. Feel free to reach me through my 
