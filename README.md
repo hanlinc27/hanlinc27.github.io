@@ -1,4 +1,4 @@
-# ->🐬hanlin personal website<-
+# 🐬hanlin personal website
 
 ### Built with: 
 * Gatsby 
