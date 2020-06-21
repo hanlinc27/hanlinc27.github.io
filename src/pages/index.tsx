@@ -18,7 +18,7 @@ export default () => (
     and <Highlight>Sunnybrook</Highlight>&nbsp;Research Institute. <br></br>
     I care about engineering for social good and volunteer a lot with Toronto’s <Highlight>Civic Tech</Highlight>&nbsp; community.
   <br></br>
-     Currently looking for Fall 2020 Internship opportunities in <Highlight>software development! </Highlight> <br></br>
+Anything interesting? I'm open to talk! 😊👍
  <br></br>
    <a href= "https://hanlincheng.me/static/hanlincheng.pdf" target = "_blank">resumé            .            </a>
     <a href="mailto:h62cheng@uwaterloo.ca"  target="_blank">email            .            </a>

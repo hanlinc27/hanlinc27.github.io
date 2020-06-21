@@ -70,7 +70,7 @@ So in the meantime, I’ll just keep walking. :)
           <br></br>
 📕 Read my first <Highlight>Murakami</Highlight> novel - Kafka on the Shore (best word to describe it - dreamlike).
           <br></br>
-          🍞 Learned from my mom how to make <Highlight>garlic bread </Highlight>! So delicious. 🤤
+          🧩 Working on <Highlight>Puzzle Potluck</Highlight> 3 (Week-long hunt)
           <br></br>
           <br></br>
         &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;🐬 If you’re willing to chat, I am always open to listen and learn. Feel free to reach me through my 
