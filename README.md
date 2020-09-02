@@ -7,3 +7,9 @@
 * Javascript
 
 I guess the goal here is to learn a bit more while trying to communicate in a better manner? and trying the markdown rendering in gatsby :) 
+
+To set up local server: 
+```gatsby develop```
+
+For automated build: 
+```npm run deploy ```
