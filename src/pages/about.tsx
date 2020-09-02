@@ -63,14 +63,14 @@ So in the meantime, I’ll just keep walking. :)
         <>
           😊 Completed a 10 hour online <Highlight>Puzzlehunt</Highlight> (CMU Getaway!) for the first time. Thinking of writing one?
           <br></br>
-🎤 Published the seventh episode of a <Highlight>podcast</Highlight> (it’s anonymous, so  I guess this makes it less anonymous?) To give some context, it’s called
+🎤 Published the eighth episode of a <Highlight>podcast</Highlight> (it’s anonymous, so  I guess this makes it less anonymous?) To give some context, it’s called
           <a href="https://medium.com/for-context" target="_blank">
             @forcontext.
           </a>
           <br></br>
-📕 Read my first <Highlight>Murakami</Highlight> novel - Kafka on the Shore (best word to describe it - dreamlike).
+📕 Reading <Highlight>The Secret</Highlight><Highlight> History </Highlight>  by Donna Tartt with an unreliable narrator. 
           <br></br>
-          🧩 Working on <Highlight>Puzzle Potluck</Highlight> 3 (Week-long hunt)
+          🧩 Officially finished up my summer term and <Highlight>first year</Highlight> of University.
           <br></br>
           <br></br>
         &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;🐬 If you’re willing to chat, I am always open to listen and learn. Feel free to reach me through my 

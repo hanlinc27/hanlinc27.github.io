@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 
-/**
- * Custom hooks that return the keys that are pressed on the keyboard
- */
+
 export const useKeyDown = () => {
   const [keys, setKeys] = useState<number[]>([]);
 
