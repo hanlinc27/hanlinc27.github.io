@@ -8,7 +8,9 @@ import { Container } from 'components/container/Container';
 interface HeaderProps {
   children: ReactNode;
 }
+const StyledContainer = styled(Container)`
 
+`;
 const StyledContent = styled.div`
   display: flex;
   font-style: normal;
@@ -30,12 +32,13 @@ const Navigation = styled.div`
 `;
 
 export const Header = ({ children }: HeaderProps) => (
-    <Container>
+    <StyledContainer>   
+
       <StyledContent>
-        <a href="/">
-          Hanlin C. 
-        </a>
+    
         <Navigation>{children}</Navigation>
       </StyledContent>
-    </Container>
+    </StyledContainer>
+  
+
 );

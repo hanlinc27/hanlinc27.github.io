@@ -26,17 +26,19 @@ export default ({ children }: AppLayoutProps) => (
 
     <Layout>
       <Header>
+    
+     <HeaderLink name = "Work" href="/" />
       <HeaderLink name = "Books" href = "/books" /> 
         <HeaderLink name="About" href="/about" />
         <HeaderLink name = "Resumé" href = 'https://hanlincheng.me/static/hanlincheng.pdf'  />
       </Header>
-
+     
       {children}
 
       <Footer
       />
-
       {isDev && <Devtools />}
     </Layout>
+    
   </>
 );

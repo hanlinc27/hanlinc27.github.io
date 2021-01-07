@@ -49,7 +49,6 @@ const Description = styled.p`
 export const BlockText = ({ heading, description }: BlockTextProps) => (
   <Container>
     <Block>
-    {/* <Column md={12}> */}
       <Row>
       
           <Heading>{heading}</Heading>

@@ -1,18 +1,60 @@
 @import url('https://fonts.googleapis.com/css?family=Quattrocento');
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.fade-animation {
+  animation: fadeInUp ease 10s;
+-webkit-animation: fadeInUp ease 10s;
+}
 .landing-heading {
-  font-family: Crimson Text;
-font-style: normal;
+font-family: 'Playfair Display', serif;font-style: normal;
 font-weight: 600;
 font-size: 32px;
 line-height: 43px;
 letter-spacing: 0.02em;
 
 color: #1E1A1D;
-  }
 
+  }
+  
+  @keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
   .landing-subtitle{
     font-family: 'Rubik', sans-serif;
 font-style: normal;
@@ -21,9 +63,11 @@ font-size: 14px;
 line-height: 17px;
 margin-bottom: 16px;
 
+
 color: #1E1A1D;
   }
   .landing-body {
+    display: inline-block;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -31,23 +75,10 @@ color: #1E1A1D;
     line-height: 17px;
     
     color: #1E1A1D;
-    
+
   }
 
-  .blog-post-container {
-    font-family: 'Quattrocento';
-    font-size: 24px; 
-  }
-  .blog-post {
-    font-family: 'Quattrocento';
-    font-size: 24px; 
-    padding: 30px;
-  }
-  .blog-post-content {
-    font-family: 'Quattrocento Sans';
-    font-size: 18px; 
-   
-  }
+
   .musings-subheading{
     font-family: 'Quattrocento Sans';
     font-style: italic; 
@@ -78,21 +109,9 @@ color: #1E1A1D;
 }
 
 a { 
-  text-decoration: none; color:#000; 
-  font-family: '"Quattrocento", serif';
-  font-size: 24px;
+  text-decoration: none;
   }
-  a.firstfont{
-    font-family: '"Quattrocento", serif';
-  font-size: 24px;
-  }
-  a.secondfont{
-    font-family: '"Quattrocento Sans", sans serif';
-    font-color: #1E1A1D; 
-
-  font-size: 20px;
-  }
-  a:visited { font-weight: 500; text-decoration: underline; color: #1E1A1D; }
+  a:visited { font-weight: 500; text-decoration: none !important; color: #1E1A1D; }
   a:hover { font-weight: 500; text-decoration: underline; color: #426B69; }
   a:focus { font-weight: 500; text-decoration: underline; color: #426B69;  }
   a:hover, a:active { font-weight: 500; text-decoration: underline; color: #426B69;  }

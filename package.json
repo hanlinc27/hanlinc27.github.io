@@ -1,6 +1,6 @@
 {
-  "name": "ueno-gatsby-starter",
-  "description": "Opinionated Gatsby starter by Ueno",
+  "name": "HC Personal Website",
+  "description": "Hanlin C. Personal Website",
   "version": "1.0.0",
   "license": "MIT",
   "keywords": [
@@ -12,12 +12,11 @@
     "ueno"
   ],
   "contributors": [
-    "Birkir Gudjonsson <birkir.gudjonsson@gmail.com>",
-    "Jérémy Barbet <jeremgraph@gmail.com>"
+   "Hanlin Cheng (h62cheng@uwaterloo.ca)"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueno-llc/ueno-gatsby-starter"
+    "url": "https://github.com/hanlinc27"
   },
   "scripts": {
     "deploy": "gatsby build && gh-pages -d public -b master",

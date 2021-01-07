@@ -29,5 +29,5 @@ export const Container = styled.div`
     max-width: ${math(`${variables.pageWidth} + ${variables.breakpoints.sm.gutter}`)};
   }
 
-  ${breakpointStyles('md')}
+  
 `;

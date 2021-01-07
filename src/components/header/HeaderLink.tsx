@@ -2,7 +2,6 @@ import React, { ReactNode } from 'react';
 import { Link } from 'gatsby';
 import styled, { css } from 'styled-components';
 import 'styles/fonts.css';
-import { Container } from 'components/container/Container';
 
 interface LinkProps {
   name: string;
