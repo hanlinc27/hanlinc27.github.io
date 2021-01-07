@@ -18,7 +18,7 @@ export const variables = {
     family: '"Quattrocento Sans", sans-serif;',
     familyHeading: '"Quattrocento", serif',
     size: '17px',
-    sizeMin: '14px',
+    sizeMin: '16px',
     lineHeight: 1.5,
   },
   

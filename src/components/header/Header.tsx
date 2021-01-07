@@ -15,8 +15,8 @@ const StyledContent = styled.div`
   display: flex;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 14px;
+  line-height: 17px;
   
   color: #1E1A1D;
       font-family: 'Rubik', sans-serif;

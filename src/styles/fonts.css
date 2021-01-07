@@ -59,7 +59,7 @@ color: #1E1A1D;
     font-family: 'Rubik', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
+font-size: 16px;
 line-height: 17px;
 margin-bottom: 16px;
 
@@ -67,12 +67,11 @@ margin-bottom: 16px;
 color: #1E1A1D;
   }
   .landing-body {
-    display: inline-block;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 16px;
+    line-height: 17px !important;
     
     color: #1E1A1D;
 

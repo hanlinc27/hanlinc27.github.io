@@ -12,7 +12,7 @@ const StyledContent = styled.div`
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;    
     color: #1E1A1D;
     padding-bottom: 48px;

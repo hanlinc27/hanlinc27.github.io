@@ -3,9 +3,8 @@ import styled from 'styled-components';
 import 'styles/fonts.css';
 
 import { responsiveFont } from 'styles/utils';
-import { variables, breakpoints } from 'styles/variables';
+import { breakpoints } from 'styles/variables';
 import { Container } from 'components/container/Container';
-import { Column } from 'components/grid/Column';
 import { Row } from 'components/grid/Row';
 
 interface IntroProps {
@@ -20,8 +19,8 @@ const Wrapper = styled.div`
   }
 `;
 
-const Paragraph = styled.p`
- ${responsiveFont(24, 24)};
+const Paragraph = styled.div`
+ ${responsiveFont(16, 16)};
   font-family: 'Quattrocento Sans';
   font-weight: 300;
 `;
@@ -31,12 +30,7 @@ export const Intro = ({ children }: IntroProps) => (
     <Wrapper>
     <Row>
       <Paragraph>{children}</Paragraph>   
-        
-   
-
       </Row>
-     
     </Wrapper>
-    {/* </Column> */}
   </Container>
 );

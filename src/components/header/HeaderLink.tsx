@@ -15,7 +15,7 @@ const base = css`
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 17px;
   
   margin-left: 28px;
   text-decoration: none;
