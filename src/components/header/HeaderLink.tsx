@@ -1,8 +1,8 @@
 import React, { ReactNode } from 'react';
 import { Link } from 'gatsby';
 import styled, { css } from 'styled-components';
-
-import { breakpoints } from 'styles/variables';
+import 'styles/fonts.css';
+import { Container } from 'components/container/Container';
 
 interface LinkProps {
   name: string;
@@ -12,55 +12,34 @@ interface LinkProps {
 
 const base = css`
   display: flex;
-
-  margin-left: 25px;
-
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  
+  margin-left: 28px;
   text-decoration: none;
-
-  color: #404040;
+  color: #1E1A1D;
   transition: 200ms opacity ease-in-out;
-
-  &:first-of-type {
-    margin-left: 0;
-  }
-
-  &:hover {
-    opacity: 0.5;
-  }
 `;
 
 const LinkElement = styled.a`
   ${base};
 `;
 
-const Icon = styled.div`
-  svg {
-    position: relative;
-
-    margin-right: 0px;
-
-    path {
-      fill: #404040;
-    }
-
-    @media (min-width: ${breakpoints.md}) {
-      top: 3px;
-    }
-  }
-`;
 
 const Lnk = styled(Link)`
   ${base};
 `;
 
-export const HeaderLink = ({ name, href, icon }: LinkProps) => {
+export const HeaderLink = ({ name, href }: LinkProps) => {
   const isLink = typeof href !== 'undefined';
   const isExternal = isLink && /^((https?:)?\/\/|[0-9a-zA-Z]+:)/.test(href || '');
 
   if (isExternal) {
     return (
       <LinkElement href={href} target="_blank" rel={'noopener noreferrer'}>
-        {icon && <Icon>{icon}</Icon>}
         {name}
       </LinkElement>
     );
@@ -68,7 +47,6 @@ export const HeaderLink = ({ name, href, icon }: LinkProps) => {
 
   return (
     <Lnk to={href}>
-      {icon && <Icon>{icon}</Icon>}
       {name}
     </Lnk>
   );

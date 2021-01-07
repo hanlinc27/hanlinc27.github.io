@@ -21,12 +21,12 @@ export const variables = {
     sizeMin: '14px',
     lineHeight: 1.5,
   },
-
+  
   // colors
   colors: {
     primary: '#F5BB00',
     font: '#333',
-    background: '#F2FFFD',
+    background: '#FDFAF5',
     placeholder: '#ddd',
   },
 

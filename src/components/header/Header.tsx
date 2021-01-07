@@ -1,35 +1,27 @@
 import React, { ReactNode } from 'react';
 import styled from 'styled-components';
+import 'styles/fonts.css';
 
-import StarterLogo from 'assets/svg/avatar.svg';
-
-import { breakpoints, variables } from 'styles/variables';
+import { variables } from 'styles/variables';
 import { Container } from 'components/container/Container';
 
 interface HeaderProps {
   children: ReactNode;
 }
 
-const HeaderRoot = styled.header`
-  display: block;
-`;
-
-const Content = styled.div`
+const StyledContent = styled.div`
   display: flex;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  
+  color: #1E1A1D;
+      font-family: 'Rubik', sans-serif;
+
   align-items: center;
 
   padding: ${variables.gutter} 0;
-`;
-
-const Logo = styled(StarterLogo)`
-  display: block;
-
-  height: 150px;
-  width: auto;
-
-  @media (min-width: ${breakpoints.md}) {
-    height: 200px;
-  }
 `;
 
 const Navigation = styled.div`
@@ -38,14 +30,12 @@ const Navigation = styled.div`
 `;
 
 export const Header = ({ children }: HeaderProps) => (
-  <HeaderRoot>
     <Container>
-      <Content>
+      <StyledContent>
         <a href="/">
-          <Logo />
+          Hanlin C. 
         </a>
         <Navigation>{children}</Navigation>
-      </Content>
+      </StyledContent>
     </Container>
-  </HeaderRoot>
 );

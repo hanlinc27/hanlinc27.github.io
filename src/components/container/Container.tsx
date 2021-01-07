@@ -30,5 +30,4 @@ export const Container = styled.div`
   }
 
   ${breakpointStyles('md')}
-  ${breakpointStyles('lg')}
 `;

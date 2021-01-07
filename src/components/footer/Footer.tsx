@@ -1,65 +1,33 @@
 import React from 'react';
 import styled from 'styled-components';
-import DolphinFooter from 'assets/svg/dolphin.svg';
 import { Container } from 'components/container/Container';
+import 'styles/fonts.css';
 
-interface Social {
-  icon: React.ReactNode;
-  to: string;
-}
-
-interface FooterProps {
-  logo: React.ReactNode;
-  social: Social[];
-}
-
-const FooterRoot = styled.div`
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
+const StyledContainer = styled(Container)`
 `;
 
-const Content = styled.div`
-  display: flex;
-  justify-content: space-between;
-
-  padding: 40px 0;
-
-   border-bottom: 10px solid #FAFAC6;
+const StyledContent = styled.div`
+    display: inline;
+    margin-left: 28px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;    
+    color: #1E1A1D;
+    padding-bottom: 48px;
 `;
 
-const List = styled.ul`
-  display: flex;
-`;
 
-const ListItem = styled.li`
-  margin-left: 20px;
-
-  transition: 200ms opacity ease-in-out;
-
-  &:hover {
-    opacity: 0.5;
-  }
-`;
-
-export const Footer = ({ logo, social }: FooterProps) => (
-  <FooterRoot>
-    <Container>
-      <Content>
-      <img src="https://user-images.githubusercontent.com/19617248/81488778-a3612580-923b-11ea-88bf-6b5389822ada.png" alt = "dolphin"/>
-    
-      
-        <List>
-          {social.map((item) => (
-            <ListItem key={item.to}>
-              <a href={item.to} target="_blank" rel="noopener noreferrer">
-                {item.icon}
-              </a>
-            </ListItem>
-          ))}
-        </List>
-      </Content>
-    </Container>
-  </FooterRoot>
+export const Footer = () => (
+    <StyledContainer>
+      <StyledContent>Email</StyledContent>
+      <StyledContent>Github</StyledContent>
+      <StyledContent>
+        Linkedin
+      </StyledContent>
+      <StyledContent>
+        Goodreads
+      </StyledContent>
+    </StyledContainer>
 );

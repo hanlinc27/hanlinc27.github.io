@@ -1,37 +1,31 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
 import 'styles/fonts.css';
+import { Container } from 'components/container/Container';
 import { Intro } from 'components/intro/Intro';
-import { Highlight } from "components/intro/Highlight";
+// import { Highlight } from "components/intro/Highlight";
 
 // tslint:disable-next-line: no-default-export
 export default () => (
   <>
     <Helmet title="Hanlin Cheng" />
+    <Container>
     <Intro>
       
-     <div className = "landing-heading">  Hi, I'm Hanlin. :)) </div>
-    I'm a <Highlight>Systems Design</Highlight>&nbsp;
-    Engineering student at the University of Waterloo. 
+     <div className = "landing-heading">  Hi there, I'm Hanlin. </div>
+  
     <br></br>
-    I’ve previously interned at <Highlight>VMware</Highlight>&nbsp; 
-    and <Highlight>Sunnybrook</Highlight>&nbsp;Research Institute. <br></br>
-    I care about engineering for social good and volunteer a lot with Toronto’s <Highlight>Civic Tech</Highlight>&nbsp; community.
+    <div className = "landing-subtitle"> I’m striving to create beautiful software experiences for everyday interactions.</div>
+    <div className = "landing-body">
+    I’m a second year engineering student at the University of Waterloo. I’ve previously interned at Imagine Communications, VMware, and Sunnybrook Research Institute. I also do volunteer with UW Blueprint and Civic Tech Toronto to build pro-bono software. 
+<br></br>
+I’m currently seeking Summer 2021 software development internships! 
+</div>
   <br></br>
-Anything interesting? I'm open to talk! 😊👍
- <br></br>
-   <a href= "https://hanlincheng.me/static/hanlincheng.pdf" target = "_blank">resumé            .            </a>
-    <a href="mailto:h62cheng@uwaterloo.ca"  target="_blank">email            .            </a>
-    <a href="https://www.linkedin.com/in/hanlincheng"target="_blank">linkedin            .            </a>
-     <a href="https://github.com/hanlinc27" target="_blank">github            .            </a>
-     <a href="https://twitter.com/hanlin_cheng"target="_blank">twitter       </a>
-
- <br></br>
- <br></br>
-     <div className = "landing-body">It's the little things that count...</div>
 
 
-     <div className="row">
+
+     {/* <div className="row">
   <div className="column">
     <img src="https://user-images.githubusercontent.com/19617248/82160408-2a795380-9863-11ea-871c-d9851f993394.png" alt="Axolotl"/>
   </div>
@@ -50,11 +44,11 @@ Anything interesting? I'm open to talk! 😊👍
     <img src = "https://user-images.githubusercontent.com/19617248/82160415-2f3e0780-9863-11ea-844d-662e59d85d42.png" alt = "Coffee"/>
   </div>
  
-</div>
+</div> */}
 <br></br>
 <br></br>
     </Intro>
-   
+    </Container>
   
   </>
 );

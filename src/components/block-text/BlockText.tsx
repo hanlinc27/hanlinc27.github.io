@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import { responsiveFont } from 'styles/utils';
 import { breakpoints, variables } from 'styles/variables';
 import { Container } from 'components/container/Container';
-import { Column } from 'components/grid/Column';
 import { Row } from 'components/grid/Row';
 
 interface BlockTextProps {
@@ -15,9 +14,9 @@ interface BlockTextProps {
 const Block = styled.div`
   padding: 50px 0;
 
-  // @media (min-width: ${breakpoints.lg}) {
-  //   padding: 20px 0;
-  // }
+  @media (min-width: ${breakpoints.lg}) {
+    padding: 20px 0;
+  }
 `;
 
 const Heading = styled.h3`

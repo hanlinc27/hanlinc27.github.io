@@ -13,9 +13,7 @@ interface IntroProps {
 }
 
 const Wrapper = styled.div`
-  padding: 30px 0;
-// used to be 60px
-  border-bottom: 1px solid #e5e5e5;
+  padding: 20px 0;
 
   @media (min-width: ${breakpoints.md}) {
     padding: 120px 0;
@@ -30,7 +28,6 @@ const Paragraph = styled.p`
 
 export const Intro = ({ children }: IntroProps) => (
   <Container>
-    {/* <Column md = {8}> */}
     <Wrapper>
     <Row>
       <Paragraph>{children}</Paragraph>   
