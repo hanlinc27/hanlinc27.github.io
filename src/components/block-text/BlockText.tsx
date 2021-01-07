@@ -50,12 +50,9 @@ export const BlockText = ({ heading, description }: BlockTextProps) => (
   <Container>
     <Block>
       <Row>
-      
           <Heading>{heading}</Heading>
           <Description>{description}</Description>
-    
       </Row>
-      {/* </Column> */}
     </Block>
   </Container>
 );

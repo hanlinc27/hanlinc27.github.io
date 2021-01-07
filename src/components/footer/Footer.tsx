@@ -4,6 +4,7 @@ import { Container } from 'components/container/Container';
 import 'styles/fonts.css';
 
 const StyledContainer = styled(Container)`
+
 `;
 
 const StyledContent = styled.div`
@@ -18,9 +19,17 @@ const StyledContent = styled.div`
     padding-bottom: 48px;
 `;
 
+const StyledDiv = styled.div`
+  margin-left: 28px;
+  border-top: 1px solid #1E1A1D;
+  margin-bottom: 16px;
+`;
+
 
 export const Footer = () => (
     <StyledContainer>
+      <StyledDiv>
+      </StyledDiv>
       <StyledContent>Email</StyledContent>
       <StyledContent>Github</StyledContent>
       <StyledContent>

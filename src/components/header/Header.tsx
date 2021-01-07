@@ -33,9 +33,7 @@ const Navigation = styled.div`
 
 export const Header = ({ children }: HeaderProps) => (
     <StyledContainer>   
-
       <StyledContent>
-    
         <Navigation>{children}</Navigation>
       </StyledContent>
     </StyledContainer>

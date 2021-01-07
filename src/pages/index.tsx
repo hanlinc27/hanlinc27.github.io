@@ -5,7 +5,10 @@ import { Container } from 'components/container/Container';
 import { Intro } from 'components/intro/Intro';
 import styled from 'styled-components';
 // import { Highlight } from "components/intro/Highlight";
-
+import first from "assets/images/first.svg";
+import second from "assets/images/second.svg";
+import third from "assets/images/third.svg";
+import fourth from "assets/images/fourth.svg";
 // tslint:disable-next-line: no-default-export
 const StyledLink = styled.a`
 cursor: pointer;
@@ -21,6 +24,11 @@ text-decoration: underline;
 
 const StyledDiv = styled.div `
 display: inline;
+`;
+
+const StyledImg = styled.img`
+width: 130px;
+height: 186px;
 `;
 export default () => (
   <>
@@ -49,7 +57,14 @@ export default () => (
    </div>
 <br></br>
 <br></br>
+<div className="row animated animatedFadeInUp fadeInUp">
+<StyledImg className = "column animated" src={first}></StyledImg>
+<StyledImg className = " column animated" src={second}></StyledImg>
+<StyledImg className = "column animated " src={third}></StyledImg>
+<StyledImg className = " column animated " src={fourth}></StyledImg>
+</div>
     </Intro>
+
     </Container>
 
   </>
