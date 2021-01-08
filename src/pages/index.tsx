@@ -6,7 +6,12 @@ import { Intro } from 'components/intro/Intro';
 import styled from 'styled-components';
 import { Project } from 'components/project-blurb/Project';
 import { SpecialProject} from 'components/project-blurb/SpecialProject';
+import CopyMailTo from "react-copy-mailto";
 
+
+import  github from "assets/images/github.svg";
+import linkedin from "assets/images/linkedin.svg";
+import email from "assets/images/email.svg";
 
 import first from "assets/images/first.svg";
 import second from "assets/images/second.svg";
@@ -84,6 +89,27 @@ const StyledProjectContainer = styled.div`
   margin-top: 20px;
   margin-bottom: 0%;
 `;
+
+const StyledIcon = styled.img`
+  padding-left: 8px;
+  width: 28px;
+  cursor:pointer;
+  display: inline;
+  margin-right: 16px;
+`;
+const StyledEmailIcon = styled.img`
+  padding-left: 9px;
+  padding-bottom: -4px;
+  overflow: hidden;
+  margin-bottom: 14px;
+  width: 28px;
+  cursor:pointer;
+  display: inline;
+  margin-right: 50px;
+`;
+
+
+
 export default () => (
   <>
     <Helmet title="Hanlin Cheng" />
@@ -111,7 +137,15 @@ export default () => (
         </div>
         <br></br>
         <div className="landing-subtitle animated animatedFadeInUp fadeInUp"> I’m currently seeking Summer 2021 Software Development internships!</div>
-
+       
+      
+<a href="https://github.com/hanlinc27" target="_blank"><StyledIcon className="landing-subtitle animated animatedFadeInUp fadeInUp"src={github}></StyledIcon>
+</a>
+<a href="https://www.linkedin.com/in/hanlincheng/" target="_blank">
+<StyledIcon className="landing-subtitle animated animatedFadeInUp fadeInUp" src={linkedin}></StyledIcon>
+<CopyMailTo defaultTooltip="Copy to clipboard" copiedTooltip="Copied!"email="h6cheng@uwaterloo.ca" ><StyledEmailIcon className="landing-subtitle animated animatedFadeInUp fadeInUp"src={email}></StyledEmailIcon>
+</CopyMailTo>
+</a>
         <br></br>
         <br></br>
         <div className="row animated animatedFadeInUp fadeInUp">

@@ -120,7 +120,7 @@ const StyledNav = styled.a`
 export const SpecialProject = ({ title, body, date, stack, link, buttonText, navLink }: ProjectProps) => (
     <>
         <StyledContainer>
-            <StyledTitle href={link} target="_blank" rel="noopener noreferrer">
+            <StyledTitle href={link} target="_blank">
                 {title}
             </StyledTitle>
             <StyledBody>

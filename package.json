@@ -12,7 +12,7 @@
     "ueno"
   ],
   "contributors": [
-   "Hanlin Cheng (h62cheng@uwaterloo.ca)"
+    "Hanlin Cheng (h62cheng@uwaterloo.ca)"
   ],
   "repository": {
     "type": "git",
@@ -78,6 +78,7 @@
     "polished": "3.6.2",
     "react": "16.13.1",
     "react-bootstrap": "^1.0.1",
+    "react-copy-mailto": "^1.1.1",
     "react-dom": "16.13.1",
     "react-helmet": "6.0.0",
     "styled-components": "5.1.0"
