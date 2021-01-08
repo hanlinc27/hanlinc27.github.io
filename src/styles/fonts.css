@@ -76,7 +76,9 @@ color: #1E1A1D;
     color: #1E1A1D;
 
   }
-
+.text-highlight{
+  background-color: rgba(66, 107, 105, 0.16);
+}
 .books-subtitle{
   font-family: 'Rubik', sans-serif;
   font-style: normal;
@@ -147,6 +149,7 @@ a {
     -moz-animation:spin 4s linear infinite;
     animation:spin 4s linear infinite;
   }
+
   @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
   @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
   @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
