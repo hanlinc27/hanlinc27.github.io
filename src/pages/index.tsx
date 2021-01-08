@@ -149,10 +149,10 @@ export default () => (
         <br></br>
         <br></br>
         <div className="row animated animatedFadeInUp fadeInUp">
-          <StyledImg className="column animated" src={first}></StyledImg>
+          <StyledImg className="column-test animated" src={first}></StyledImg>
           <StyledImg className=" column animated" src={second}></StyledImg>
-          <StyledImg className="column animated " src={third}></StyledImg>
-          <StyledImg className=" column animated " src={fourth}></StyledImg>
+          <StyledImg className="column-test2 animated " src={third}></StyledImg>
+          <StyledImg className="column-test3 animated " src={fourth}></StyledImg>
         </div>
 
         <div className="animated animatedFadeInUp fadeInUp">
