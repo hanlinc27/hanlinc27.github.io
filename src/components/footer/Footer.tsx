@@ -27,6 +27,10 @@ const StyledContent = styled.a`
     &:focus{
       text-decoration: underline;
     }
+
+    @media only screen and (max-width: 800px) {
+     font-size: 10px;
+      }
 `;
 
 const StyledDiv = styled.div`
