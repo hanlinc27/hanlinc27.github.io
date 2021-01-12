@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: 'Hanlin Personal Gatsby Site',
+    title: 'Hanlin Personal Site',
     description: 'A collection of interestings swimming on the internet.'
   },
   plugins: [
@@ -48,7 +48,7 @@ module.exports = {
         background_color: 'F2FFFD',
         theme_color: 'F2FFFD',
         display: 'minimal-ui',
-        icon: 'src/assets/images/favicon.png',
+        icon: 'src/assets/images/tab-logo.png',
       },
   
     },

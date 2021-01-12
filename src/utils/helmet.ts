@@ -1,12 +1,12 @@
-import Favicon from 'assets/images/favicon.png';
+import Favicon from 'assets/images/tab-logo.png';
 import Share from 'assets/images/share.png';
 
-const title = 'Create Ueno App';
-const description = 'The easiest and fastest way to create new projects.';
+const title = 'Hanlin App';
+const description = 'React Typescript.';
 
 export const helmet = {
   title,
-  titleTemplate: '%s - Ueno',
+  titleTemplate: 'HC App',
   htmlAttributes: { lang: 'en' },
   meta: [
     { name: 'description', content: description },

@@ -120,7 +120,7 @@ export default () => (
 
         <br></br>
 
-        <div className="landing-subtitle animated animatedFadeInUp fadeInUp"> I’m striving to create beautiful software experiences for everyday interactions.</div>
+        <div className="landing-subtitle animated animatedFadeInUp fadeInUp"> I’m striving to create beautiful, intentional and meaningful software interactions.</div>
         <div className="landing-body animated animatedFadeInUp fadeInUp">
           I’m a second year engineering student at the University of Waterloo. I’ve previously interned at <StyledDiv></StyledDiv>
           <StyledLink target="_blank" href="https://imaginecommunications.com/">Imagine Communications

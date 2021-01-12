@@ -3,6 +3,8 @@ import { Helmet } from "react-helmet";
 import { Intro } from 'components/intro/Intro';
 import { Container } from 'components/container/Container';
 import 'styles/fonts.css';
+
+import mePhoto from "assets/images/about-photo.svg";
 // tslint:disable no-default-export
 export default () => (
   <>
@@ -34,6 +36,8 @@ How so? To be honest, I’m not too sure yet.
 So in the meantime, I’ll just keep walking. :) */}
 </div> 
 </div>
+<img src={mePhoto}></img>
+<div className="book-quote">[some text]</div>
 
     </Intro>
 
