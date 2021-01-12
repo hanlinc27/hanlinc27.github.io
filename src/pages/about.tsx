@@ -1,10 +1,12 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
 import { Intro } from 'components/intro/Intro';
+import { Container } from 'components/container/Container';
 import 'styles/fonts.css';
 // tslint:disable no-default-export
 export default () => (
   <>
+  <Container>
     <Helmet title="about me" />
 
     <Intro>
@@ -35,6 +37,6 @@ So in the meantime, I’ll just keep walking. :) */}
 
     </Intro>
 
-
+    </Container>
   </>
 );

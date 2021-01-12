@@ -28,8 +28,8 @@ const StyledContent = styled.a`
       text-decoration: underline;
     }
 
-    @media only screen and (max-width: 800px) {
-     font-size: 10px;
+    @media only screen and (max-width: 600px) {
+     font-size: 9px;
       }
 `;
 

@@ -100,6 +100,12 @@ const StyledSpan = styled.span`
     line-height: 17px;
     padding-top: 8px;
     color: #426B69;
+    white-space: nowrap;
+
+
+    @media only screen and (max-width: 600px) {
+        font-size: 12px;
+         }
 `;
 
 const StyledButtonContainer = styled.div`

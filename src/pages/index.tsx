@@ -150,9 +150,10 @@ export default () => (
         <br></br>
         <div className="row animated animatedFadeInUp fadeInUp">
           <StyledImg className="column-test animated" src={first}></StyledImg>
-          <StyledImg className=" column animated" src={second}></StyledImg>
+                    <StyledImg className="column-test3 animated " src={fourth}></StyledImg>
+                    <StyledImg className=" column animated" src={second}></StyledImg>
+
           <StyledImg className="column-test2 animated " src={third}></StyledImg>
-          <StyledImg className="column-test3 animated " src={fourth}></StyledImg>
         </div>
 
         <div className="animated animatedFadeInUp fadeInUp">
@@ -162,7 +163,7 @@ export default () => (
             <StyledProject title="Project Developer at UW Blueprint"
               body=" - Building an interactive map platform to showcase the written stories of immigrant women through a symbolic pair of shoes."
               date="September 2020 - Present"
-              stack="ReactJS (Typescript), LeafletJS, Golang, PostgreSQL, Docker"
+              stack="ReactJS (Typescript), Styled Components, Mapbox, LeafletJS, Golang, PostgreSQL, Docker"
               link="https://theshoeproject.online/"
             ></StyledProject>
             <StyledProjectImage src={shoeImage}></StyledProjectImage>
@@ -184,7 +185,7 @@ export default () => (
             <StyledSpecialProject title="Frontend Developer at Civic Tech Toronto"
               body=" - Empowering a civic grassroot organization driving tech-focused mentoring for underhoused Toronto youth. "
               date="February 2020 - December 2020"
-              stack="ReactJS (Javascript), MaterialUI, Figma"
+              stack="ReactJS (Javascript), MaterialUI, Styled Components Figma"
               link="http://civictech.ca/"
               buttonText="Click here for case study!"
               navLink="/books"
