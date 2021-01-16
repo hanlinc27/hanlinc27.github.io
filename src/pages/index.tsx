@@ -187,7 +187,7 @@ export default () => (
               date="February 2020 - December 2020"
               stack="ReactJS (Javascript), MaterialUI, Styled Components Figma"
               link="http://civictech.ca/"
-              buttonText="Click here for case study!"
+              buttonText="Case study coming soon!"
               navLink="/books"
             ></StyledSpecialProject>
             <StyledProjectImage src={ctto}></StyledProjectImage>
