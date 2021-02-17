@@ -147,8 +147,8 @@ export default () => (
 
               <br></br>
               <br></br>
-              <StyledSmallText>Thank you for stopping by! I’m currently seeking </StyledSmallText>
-              <StyledBoldSmallText>Summer 2021 Internships</StyledBoldSmallText>
+              {/* <StyledSmallText>Thank you for stopping by! I’m currently seeking </StyledSmallText>
+              <StyledBoldSmallText>Summer 2021 Internships</StyledBoldSmallText> */}
               <StyledSmallText> - If you’d like to chat, I'm always open to listen and learn. All my info can be found </StyledSmallText>
               <StyledLink target="_blank" href="https://hanlincheng.me/static/hanlin_cheng_resume.pdf">here.</StyledLink>
 

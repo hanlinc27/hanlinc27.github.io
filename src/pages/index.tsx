@@ -136,7 +136,7 @@ export default () => (
           <StyledDiv> to build pro-bono software.  </StyledDiv>
         </div>
         <br></br>
-        <div className="landing-subtitle animated animatedFadeInUp fadeInUp"> I’m currently seeking Summer 2021 Software Development internships!</div>
+        {/* <div className="landing-subtitle animated animatedFadeInUp fadeInUp"> I’m currently seeking Summer 2021 Software Development internships!</div> */}
        
       
 <a href="https://github.com/hanlinc27" target="_blank"><StyledIcon className="landing-subtitle animated animatedFadeInUp fadeInUp"src={github}></StyledIcon>
