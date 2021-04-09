@@ -30,7 +30,7 @@ export default ({ children }: AppLayoutProps) => (
      <HeaderLink name = "Work" href="/" />
       <HeaderLink name = "Books" href = "/books" /> 
         <HeaderLink name="About" href="/about" />
-        {/* <HeaderLink name = "Resumé" href = 'https://hanlincheng.me/static/hanlin_cheng_resume.pdf'  /> */}
+        <HeaderLink name = "Resumé" href = 'https://hanlincheng.me/static/hanlin_cheng_resume.pdf'  />
       </Header>
      
       {children}
