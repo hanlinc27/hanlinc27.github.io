@@ -147,10 +147,10 @@ export default () => (
 
               <br></br>
               <br></br>
-              {/* <StyledSmallText>Thank you for stopping by! I’m currently seeking </StyledSmallText>
-              <StyledBoldSmallText>Summer 2021 Internships</StyledBoldSmallText> */}
-              <StyledSmallText> - If you’d like to chat, I'm always open to listen and learn. All my info can be found </StyledSmallText>
-              <StyledLink target="_blank" href="https://hanlincheng.me/static/hanlin_cheng_resume.pdf">here.</StyledLink>
+              <StyledSmallText>Thank you for stopping by! I’m currently seeking </StyledSmallText>
+              <StyledBoldSmallText>a 4 month Software Development Internship</StyledBoldSmallText>
+              <StyledSmallText> - If you’d like to chat, I'm always open to listen and learn.</StyledSmallText>
+              {/* <StyledLink target="_blank" href="https://hanlincheng.me/static/hanlin_cheng_resume.pdf">here.</StyledLink> */}
 
             </StyledDiv>
 
@@ -159,7 +159,7 @@ export default () => (
           <StyledSubtitleHeading>What I'm Up To!</StyledSubtitleHeading>
 <ColouredDiv>In my free time, I enjoy debating over fantasy basketball (the Spurs!), shots of espresso, building puzzles, and watercolour painting.</ColouredDiv>
        
-       <StyledBullets>• 📚 Starting my 2A online school term. </StyledBullets>
+       <StyledBullets>• 📚 Starting my 2B online school term. </StyledBullets>
        <StyledBullets>• 🍵 Making green tea matcha lattes!  </StyledBullets>
        <StyledBullets>• 🎤 Published the eleventh episode of a podcast with friends.
         <a target="_blank" href="https://anchor.fm/for-context"> Listen here!</a>

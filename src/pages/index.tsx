@@ -18,6 +18,7 @@ import second from "assets/images/second.svg";
 import third from "assets/images/third.svg";
 import fourth from "assets/images/fourth.svg";
 
+import voiceflow from "assets/images/voiceflow.svg";
 import shoeImage from "assets/images/shoe-image.svg";
 import imaginecomms from "assets/images/imaginecomms.svg";
 import ctto from "assets/images/ctto.svg";
@@ -120,9 +121,12 @@ export default () => (
 
         <br></br>
 
-        <div className="landing-subtitle animated animatedFadeInUp fadeInUp"> I’m striving to create beautiful, intentional and meaningful software interactions.</div>
+        <div className="landing-subtitle animated animatedFadeInUp fadeInUp"> I’m striving to create beautiful, intentional, and meaningful software interactions.</div>
         <div className="landing-body animated animatedFadeInUp fadeInUp">
           I’m a second year engineering student at the University of Waterloo. I’ve previously interned at <StyledDiv></StyledDiv>
+          <StyledLink target="_blank" href="https://www.voiceflow.com/">Voiceflow
+</StyledLink>
+<StyledDiv>, </StyledDiv>
           <StyledLink target="_blank" href="https://imaginecommunications.com/">Imagine Communications
 </StyledLink>
           <StyledDiv>, </StyledDiv>
@@ -136,7 +140,7 @@ export default () => (
           <StyledDiv> to build pro-bono software.  </StyledDiv>
         </div>
         <br></br>
-        {/* <div className="landing-subtitle animated animatedFadeInUp fadeInUp"> I’m currently seeking Summer 2021 Software Development internships!</div> */}
+        <div className="landing-subtitle animated animatedFadeInUp fadeInUp"> I’m currently seeking Software Engineering internships!</div>
        
       
 <a href="https://github.com/hanlinc27" target="_blank"><StyledIcon className="landing-subtitle animated animatedFadeInUp fadeInUp"src={github}></StyledIcon>
@@ -157,19 +161,31 @@ export default () => (
         </div>
 
         <div className="animated animatedFadeInUp fadeInUp">
-          <StyledSubittle>Currently</StyledSubittle>
+
+
+          <StyledSubittle>Previously</StyledSubittle>
+          <StyledProjectContainer>
+            <StyledSpecialProject title="Full Stack Developer Intern at Voiceflow"
+              body=" - Crafting collaborative conversation design experiences with a fully involved prototyping and user feedback focus."
+              date="May 2021 - Aug 2021"
+              stack="ReactJS (Typescript), Redux, Node.js, Express, Cypress, Mocha, MongoDB, Docker"
+              link="https://www.voiceflow.com"
+              navLink="https://www.voiceflow.com/blog/user-testing-made-easy-with-transcripts-in-voiceflow"
+              buttonText="Read about it here!"
+            ></StyledSpecialProject>
+            <StyledProjectImage src={voiceflow}></StyledProjectImage>
+          </StyledProjectContainer>
+
 
           <StyledProjectContainer>
             <StyledProject title="Project Developer at UW Blueprint"
-              body=" - Building an interactive map platform to showcase the written stories of immigrant women through a symbolic pair of shoes."
-              date="September 2020 - Present"
+              body=" - Building an interactive map platform and dashboard to showcase the written stories of immigrant women through a symbolic pair of shoes."
+              date="September 2020 - May 2021"
               stack="ReactJS (Typescript), Styled Components, Mapbox, LeafletJS, Golang, PostgreSQL, Docker"
               link="https://theshoeproject.online/"
             ></StyledProject>
             <StyledProjectImage src={shoeImage}></StyledProjectImage>
           </StyledProjectContainer>
-
-          <StyledSubittle>Previously</StyledSubittle>
 
           <StyledProjectContainer>
             <StyledProject title="Full Stack Developer Intern at Imagine Communications"
@@ -182,14 +198,12 @@ export default () => (
           </StyledProjectContainer>
 
           <StyledProjectContainer>
-            <StyledSpecialProject title="Frontend Developer at Civic Tech Toronto"
+            <StyledProject title="Frontend Developer at Civic Tech Toronto"
               body=" - Empowering a civic grassroot organization driving tech-focused mentoring for underhoused Toronto youth. "
               date="February 2020 - December 2020"
               stack="ReactJS (Javascript), MaterialUI, Styled Components Figma"
               link="http://civictech.ca/"
-              buttonText="Case study coming soon!"
-              navLink="/books"
-            ></StyledSpecialProject>
+            ></StyledProject>
             <StyledProjectImage src={ctto}></StyledProjectImage>
           </StyledProjectContainer>
           
