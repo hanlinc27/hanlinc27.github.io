@@ -140,7 +140,7 @@ export default () => (
               <br></br>
               <br></br>
 
-          I also happen to be a second-year Systems  Design Engineering student at the University of Waterloo? Why Systems Design? Because humans are diversly complex, so it’s exciting to understand the “big picture” story behind all the different puzzles we’re trying to solve together in this world.
+          I also happen to be a second-year Systems  Design Engineering student at the University of Waterloo. Why Systems Design? Because humans are diversly complex, so it’s exciting to understand the “big picture” story behind all the different puzzles we’re trying to solve together in this world.
           <br></br>
           <br></br>
           Moving forward, I hope to fit the little and large jigsaws we encounter to create intentionally delightful interactions.
