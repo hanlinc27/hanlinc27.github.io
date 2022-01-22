@@ -159,8 +159,8 @@ export default () => (
           <StyledSubtitleHeading>What I'm Up To!</StyledSubtitleHeading>
 <ColouredDiv>In my free time, I enjoy debating over fantasy basketball (the Spurs!), shots of espresso, building puzzles, and watercolour painting.</ColouredDiv>
        
-       <StyledBullets>• 📚 Starting my 2B online school term. </StyledBullets>
-       <StyledBullets>• 🍵 Making green tea matcha lattes!  </StyledBullets>
+       <StyledBullets>• 📚 Finished my 2B school term. </StyledBullets>
+       <StyledBullets>• 🍪 Eating lots of peanut butter. </StyledBullets>
        <StyledBullets>• 🎤 Published the eleventh episode of a podcast with friends.
         <a target="_blank" href="https://anchor.fm/for-context"> Listen here!</a>
 

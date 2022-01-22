@@ -123,7 +123,7 @@ export default () => (
 
         <div className="landing-subtitle animated animatedFadeInUp fadeInUp"> I’m striving to create beautiful, intentional, and meaningful software interactions.</div>
         <div className="landing-body animated animatedFadeInUp fadeInUp">
-          I’m a second year engineering student at the University of Waterloo. I’ve previously interned at <StyledDiv></StyledDiv>
+          I’m a second year engineering student at the University of Waterloo. I'm currently working at Intuit as a Software Engineering Intern. I’ve previously interned at <StyledDiv></StyledDiv>
           <StyledLink target="_blank" href="https://www.voiceflow.com/">Voiceflow
 </StyledLink>
 <StyledDiv>, </StyledDiv>
@@ -140,7 +140,7 @@ export default () => (
           <StyledDiv> to build pro-bono software.  </StyledDiv>
         </div>
         <br></br>
-        <div className="landing-subtitle animated animatedFadeInUp fadeInUp"> I’m currently seeking Software Engineering internships!</div>
+        {/* <div className="landing-subtitle animated animatedFadeInUp fadeInUp"> I’m currently seeking Software Engineering internships!</div> */}
        
       
 <a href="https://github.com/hanlinc27" target="_blank"><StyledIcon className="landing-subtitle animated animatedFadeInUp fadeInUp"src={github}></StyledIcon>
