@@ -123,7 +123,10 @@ export default () => (
 
         <div className="landing-subtitle animated animatedFadeInUp fadeInUp"> I’m striving to create beautiful, intentional, and meaningful software interactions.</div>
         <div className="landing-body animated animatedFadeInUp fadeInUp">
-          I’m a second year engineering student at the University of Waterloo. I'm currently working at Intuit as a Software Engineering Intern. I’ve previously interned at <StyledDiv></StyledDiv>
+          I’m a third year engineering student at the University of Waterloo I’ve previously interned at <StyledDiv></StyledDiv>
+           <StyledLink target="_blank" href="https://www.intuit.com/">Intuit
+</StyledLink>
+<StyledDiv>, </StyledDiv>
           <StyledLink target="_blank" href="https://www.voiceflow.com/">Voiceflow
 </StyledLink>
 <StyledDiv>, </StyledDiv>
