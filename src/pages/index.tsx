@@ -1,42 +1,41 @@
 import React from 'react';
-import { Helmet } from "react-helmet";
+import { Helmet } from 'react-helmet';
 import 'styles/fonts.css';
 import { Container } from 'components/container/Container';
 import { Intro } from 'components/intro/Intro';
 import styled from 'styled-components';
 import { Project } from 'components/project-blurb/Project';
-import { SpecialProject} from 'components/project-blurb/SpecialProject';
-import CopyMailTo from "react-copy-mailto";
+import { SpecialProject } from 'components/project-blurb/SpecialProject';
+import CopyMailTo from 'react-copy-mailto';
 
+import github from 'assets/images/github.svg';
+import linkedin from 'assets/images/linkedin.svg';
+import email from 'assets/images/email.svg';
 
-import  github from "assets/images/github.svg";
-import linkedin from "assets/images/linkedin.svg";
-import email from "assets/images/email.svg";
+import first from 'assets/images/first.svg';
+import second from 'assets/images/second.svg';
+import third from 'assets/images/third.svg';
+import fourth from 'assets/images/fourth.svg';
 
-import first from "assets/images/first.svg";
-import second from "assets/images/second.svg";
-import third from "assets/images/third.svg";
-import fourth from "assets/images/fourth.svg";
-
-import voiceflow from "assets/images/voiceflow.svg";
-import shoeImage from "assets/images/shoe-image.svg";
-import imaginecomms from "assets/images/imaginecomms.svg";
-import ctto from "assets/images/ctto.svg";
-import pivotal from "assets/images/pivotal.svg";
-import sunnybrook from "assets/images/sunnybrook.svg";
-import hackathons from "assets/images/hackathons.svg";
-import forcontext from "assets/images/forcontext.svg";
+import voiceflow from 'assets/images/voiceflow.svg';
+import shoeImage from 'assets/images/shoe-image.svg';
+import imaginecomms from 'assets/images/imaginecomms.svg';
+import ctto from 'assets/images/ctto.svg';
+import pivotal from 'assets/images/pivotal.svg';
+import sunnybrook from 'assets/images/sunnybrook.svg';
+import hackathons from 'assets/images/hackathons.svg';
+import forcontext from 'assets/images/forcontext.svg';
 // tslint:disable-next-line: no-default-export
 const StyledLink = styled.a`
   cursor: pointer;
   text-decoration: underline;
-  color: #1E1A1D;
+  color: #1e1a1d;
 
-  &:hover{
-    color: #426B69;
+  &:hover {
+    color: #426b69;
     text-decoration: none !important;
   }
-  &:focus{
+  &:focus {
     text-decoration: none !important;
   }
 `;
@@ -59,10 +58,10 @@ const StyledSubittle = styled.div`
 
   letter-spacing: 0.05em;
 
-  color: #1E1A1D;
+  color: #1e1a1d;
   margin-top: 48px;
   padding-bottom: 8px;
-  border-bottom: 1px solid  #1E1A1D;;
+  border-bottom: 1px solid #1e1a1d;
 `;
 
 const StyledProject = styled(Project)`
@@ -81,11 +80,11 @@ const StyledProjectImage = styled.img`
   align-items: right;
 `;
 
-const StyledProjectContainer = styled.div`  
+const StyledProjectContainer = styled.div`
   display: flex;
   flex-direction: row;
   @media only screen and (max-width: 800px) {
-  flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   margin-top: 20px;
   margin-bottom: 0%;
@@ -94,7 +93,7 @@ const StyledProjectContainer = styled.div`
 const StyledIcon = styled.img`
   padding-left: 8px;
   width: 28px;
-  cursor:pointer;
+  cursor: pointer;
   display: inline;
   margin-right: 16px;
 `;
@@ -104,71 +103,100 @@ const StyledEmailIcon = styled.img`
   overflow: hidden;
   margin-bottom: 14px;
   width: 28px;
-  cursor:pointer;
+  cursor: pointer;
   display: inline;
   margin-right: 50px;
 `;
-
-
 
 export default () => (
   <>
     <Helmet title="Hanlin Cheng" />
     <Container>
       <Intro>
-
-        <div className="landing-heading animated animatedFadeInUp fadeInUp">  Hi there, I'm Hanlin. </div>
+        <div className="landing-heading animated animatedFadeInUp fadeInUp">
+          {' '}
+          Hi there, I'm Hanlin.{' '}
+        </div>
 
         <br></br>
 
-        <div className="landing-subtitle animated animatedFadeInUp fadeInUp"> I’m striving to create beautiful, intentional, and meaningful software interactions.</div>
+        <div className="landing-subtitle animated animatedFadeInUp fadeInUp">
+          {' '}
+          I’m striving to create beautiful, intentional, and meaningful software interactions.
+        </div>
         <div className="landing-body animated animatedFadeInUp fadeInUp">
-          I’m a third year engineering student at the University of Waterloo. I’ve previously interned at <StyledDiv></StyledDiv>
-           <StyledLink target="_blank" href="https://www.intuit.com/">Intuit
-</StyledLink>
-<StyledDiv>, </StyledDiv>
-          <StyledLink target="_blank" href="https://www.voiceflow.com/">Voiceflow
-</StyledLink>
-<StyledDiv>, </StyledDiv>
-          <StyledLink target="_blank" href="https://imaginecommunications.com/">Imagine Communications
-</StyledLink>
+          I’m a final year engineering student at the University of Waterloo. I’ve previously
+          interned at <StyledDiv></StyledDiv>
+          <StyledLink target="_blank" href="https://www.withpavilion.com/">
+            Pavilion
+          </StyledLink>
           <StyledDiv>, </StyledDiv>
-          <StyledLink target="_blank" href="https://tanzu.vmware.com/tanzu">VMware</StyledLink>
+          <StyledLink target="_blank" href="https://www.moderntreasury.com/">
+            Modern Treasury
+          </StyledLink>
+          <StyledDiv> , </StyledDiv>
+          <StyledLink target="_blank" href="https://www.intuit.com/">
+            Intuit
+          </StyledLink>
           <StyledDiv>, and </StyledDiv>
-          <StyledLink target="_blank" href="https://sunnybrook.ca/research/content/?page=sri-groups-fus">Sunnybrook Research Institute</StyledLink>
+          <StyledLink target="_blank" href="https://www.voiceflow.com/">
+            Voiceflow
+          </StyledLink>
           <StyledDiv>. Additionally, I volunteer with </StyledDiv>
-          <StyledLink target="_blank" href="https://uwblueprint.org/">UW Blueprint</StyledLink>
+          <StyledLink target="_blank" href="https://uwblueprint.org/">
+            UW Blueprint
+          </StyledLink>
           <StyledDiv> and </StyledDiv>
-          <StyledLink target="_blank" href="http://civictech.ca/">Civic Tech Toronto</StyledLink>
-          <StyledDiv> to build pro-bono software.  </StyledDiv>
+          <StyledLink target="_blank" href="http://civictech.ca/">
+            Civic Tech Toronto
+          </StyledLink>
+          <StyledDiv> to build pro-bono software. </StyledDiv>
         </div>
         <br></br>
-        {/* <div className="landing-subtitle animated animatedFadeInUp fadeInUp"> I’m currently seeking Software Engineering internships!</div> */}
-       
-      
-<a href="https://github.com/hanlinc27" target="_blank"><StyledIcon className="landing-subtitle animated animatedFadeInUp fadeInUp"src={github}></StyledIcon>
-</a>
-<a href="https://www.linkedin.com/in/hanlincheng/" target="_blank">
-<StyledIcon className="landing-subtitle animated animatedFadeInUp fadeInUp" src={linkedin}></StyledIcon>
-<CopyMailTo defaultTooltip="Copy to clipboard" copiedTooltip="Copied!"email="h6cheng@uwaterloo.ca" ><StyledEmailIcon className="landing-subtitle animated animatedFadeInUp fadeInUp"src={email}></StyledEmailIcon>
-</CopyMailTo>
-</a>
+        <div className="landing-subtitle animated animatedFadeInUp fadeInUp">
+          {' '}
+          I’m currently seeking new grad software engineering internships for 2024! I'm looking for
+          a multidisciplinary team that is kind, user-focused, and where there is room to take
+          ownership of complex engineering problems.
+        </div>
+
+        <a href="https://github.com/hanlinc27" target="_blank">
+          <StyledIcon
+            className="landing-subtitle animated animatedFadeInUp fadeInUp"
+            src={github}
+          ></StyledIcon>
+        </a>
+        <a href="https://www.linkedin.com/in/hanlincheng/" target="_blank">
+          <StyledIcon
+            className="landing-subtitle animated animatedFadeInUp fadeInUp"
+            src={linkedin}
+          ></StyledIcon>
+          <CopyMailTo
+            defaultTooltip="Copy to clipboard"
+            copiedTooltip="Copied!"
+            email="h6cheng@uwaterloo.ca"
+          >
+            <StyledEmailIcon
+              className="landing-subtitle animated animatedFadeInUp fadeInUp"
+              src={email}
+            ></StyledEmailIcon>
+          </CopyMailTo>
+        </a>
         <br></br>
         <br></br>
         <div className="row animated animatedFadeInUp fadeInUp">
           <StyledImg className="column-test animated" src={first}></StyledImg>
-                    <StyledImg className="column-test3 animated " src={fourth}></StyledImg>
-                    <StyledImg className=" column animated" src={second}></StyledImg>
+          <StyledImg className="column-test3 animated " src={fourth}></StyledImg>
+          <StyledImg className=" column animated" src={second}></StyledImg>
 
           <StyledImg className="column-test2 animated " src={third}></StyledImg>
         </div>
 
-        <div className="animated animatedFadeInUp fadeInUp">
-
-
+        {/* <div className="animated animatedFadeInUp fadeInUp">
           <StyledSubittle>Previously</StyledSubittle>
           <StyledProjectContainer>
-            <StyledSpecialProject title="Full Stack Developer Intern at Voiceflow"
+            <StyledSpecialProject
+              title="Full Stack Developer Intern at Voiceflow"
               body=" - Crafting collaborative conversation design experiences with a fully involved prototyping and user feedback focus."
               date="May 2021 - Aug 2021"
               stack="ReactJS (Typescript), Redux, Node.js, Express, Cypress, Mocha, MongoDB, Docker"
@@ -179,9 +207,9 @@ export default () => (
             <StyledProjectImage src={voiceflow}></StyledProjectImage>
           </StyledProjectContainer>
 
-
           <StyledProjectContainer>
-            <StyledProject title="Project Developer at UW Blueprint"
+            <StyledProject
+              title="Project Developer at UW Blueprint"
               body=" - Building an interactive map platform and dashboard to showcase the written stories of immigrant women through a symbolic pair of shoes."
               date="September 2020 - May 2021"
               stack="ReactJS (Typescript), Styled Components, Mapbox, LeafletJS, Golang, PostgreSQL, Docker"
@@ -191,7 +219,8 @@ export default () => (
           </StyledProjectContainer>
 
           <StyledProjectContainer>
-            <StyledProject title="Full Stack Developer Intern at Imagine Communications"
+            <StyledProject
+              title="Full Stack Developer Intern at Imagine Communications"
               body=" - Envisioning a seamless television playout experience through a file orchestration application for key video content workflows."
               date="September 2020 - December 2020"
               stack="AngularJS and VueJS (Typescript), Protractor, Jasmine, Karma, Cypress"
@@ -201,7 +230,8 @@ export default () => (
           </StyledProjectContainer>
 
           <StyledProjectContainer>
-            <StyledProject title="Frontend Developer at Civic Tech Toronto"
+            <StyledProject
+              title="Frontend Developer at Civic Tech Toronto"
               body=" - Empowering a civic grassroot organization driving tech-focused mentoring for underhoused Toronto youth. "
               date="February 2020 - December 2020"
               stack="ReactJS (Javascript), MaterialUI, Styled Components Figma"
@@ -209,9 +239,10 @@ export default () => (
             ></StyledProject>
             <StyledProjectImage src={ctto}></StyledProjectImage>
           </StyledProjectContainer>
-          
+
           <StyledProjectContainer>
-            <StyledProject title="Information Technology Intern at VMware (Formerly Pivotal Software) "
+            <StyledProject
+              title="Information Technology Intern at VMware (Formerly Pivotal Software) "
               body="  - Streamlining an internal inventory check-out system and automating the identity app migration process."
               date="January 2020 - April 2020"
               stack="ReactJS (Javascript), Google App Scripts, Cloud Foundry"
@@ -220,9 +251,9 @@ export default () => (
             <StyledProjectImage src={pivotal}></StyledProjectImage>
           </StyledProjectContainer>
 
-
           <StyledProjectContainer>
-            <StyledProject title="Software Development Intern at Sunnybrook Research Institute"
+            <StyledProject
+              title="Software Development Intern at Sunnybrook Research Institute"
               body="  - Enabling ultrasound treatment monitoring programs through parallelizing data computations."
               date="July 2019 - August 2019"
               stack="C++, CUDA, MATLAB"
@@ -230,13 +261,12 @@ export default () => (
             ></StyledProject>
             <StyledProjectImage src={sunnybrook}></StyledProjectImage>
           </StyledProjectContainer>
-        
-        
+
           <StyledSubittle>For Fun</StyledSubittle>
 
-
           <StyledProjectContainer>
-            <StyledSpecialProject title="All-nighters at hackathons"
+            <StyledSpecialProject
+              title="All-nighters at hackathons"
               body=" - A collection of hackathon projects from SheHacks IV, Ellehacks 2020, Delthacks 2020, and Hack the Valley 2020."
               date="Ongoing"
               stack="Too long of a tech stack to list."
@@ -246,9 +276,9 @@ export default () => (
             <StyledProjectImage src={hackathons}></StyledProjectImage>
           </StyledProjectContainer>
 
-
           <StyledProjectContainer>
-            <StyledSpecialProject title="Podcasting at for context: "
+            <StyledSpecialProject
+              title="Podcasting at for context: "
               body=" - Chatting away thoughts for a future self to look back and re-discover."
               date="Ongoing"
               link="https://medium.com/for-context"
@@ -257,10 +287,8 @@ export default () => (
             ></StyledSpecialProject>
             <StyledProjectImage src={forcontext}></StyledProjectImage>
           </StyledProjectContainer>
-        </div>
+        </div> */}
       </Intro>
-
     </Container>
-
   </>
 );
