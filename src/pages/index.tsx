@@ -125,8 +125,8 @@ export default () => (
           I’m striving to create beautiful, intentional, and meaningful software interactions.
         </div>
         <div className="landing-body animated animatedFadeInUp fadeInUp">
-          I’m a final year engineering student at the University of Waterloo. I’ve previously
-          interned at <StyledDiv></StyledDiv>
+          I’m a final year engineering student at the University of Waterloo. I’ve previously built
+          software at <StyledDiv></StyledDiv>
           <StyledLink target="_blank" href="https://www.withpavilion.com/">
             Pavilion
           </StyledLink>
@@ -155,9 +155,9 @@ export default () => (
         <br></br>
         <div className="landing-subtitle animated animatedFadeInUp fadeInUp">
           {' '}
-          I’m currently seeking new grad software engineering internships for 2024! I'm looking for
-          a multidisciplinary team that is kind, user-focused, and where there is room to take
-          ownership of complex engineering problems.
+          I’m currently seeking new grad roles for 2024! I'm looking for a multidisciplinary team
+          that is kind, user-focused, and where there is room to take ownership of complex
+          engineering problems.
         </div>
 
         <a href="https://github.com/hanlinc27" target="_blank">
